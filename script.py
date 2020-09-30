@@ -4,7 +4,9 @@ import plotly.express as px
 import pandas as pd
 import sys
 
+#----------------------------------
 # Script name
+#----------------------------------
 args = sys.argv
 xml_report = [elt for elt in args if '.xml' in elt]
 if(len(xml_report) == 0):
@@ -14,12 +16,15 @@ else:
 	xml_report = xml_report[0]
 print(xml_report)
 	
-# XML
+#----------------------------------
+# Parse XML
+#----------------------------------
 tree = ET.parse(xml_report)
 root = tree.getroot()
 
-# Data Frame
-import pandas as pd
+#----------------------------------
+# Fonctions
+#----------------------------------
 
 # render_plot_real
 def render_plot_real(metric, value, output_plot):
@@ -59,31 +64,9 @@ def render_group(group):
 		
 		# create plot
 		output_plot = ("%s.png")%metric
-		render_plot(metric, value, valueType, output_plot)
+		render_plot(metric, value, valueType, output_plot)	
 		
-	
-# open file
-f = open("report.html", "w")
-
-# write html
-html = """<html>
-<head>
-</head>
-<body>"""
-
-f.write("<html>")
-f.write("<head>")
-f.write('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">')
-f.write("""<style>
-.checked {
-  color: orange;
-}
-</style>
-""")
-f.write("</head>")
-f.write("<body>")
-f.write("<h1>QuaDoGeo Report</h1>")
-
+# Render stars
 def render_stars(nStars) :
 	nNonStars = 10 - nStars
 	elt_checked = '<span class="fa fa-star checked"></span>'
@@ -113,6 +96,29 @@ def render_radar(values, labels, output_plot):
 	
 	f.write(("<img src='%s'></img>")%(output_plot))
 
+#----------------------------------
+# write html
+#----------------------------------
+# open file
+f = open("report.html", "w")
+
+html = """<html>
+<head>
+</head>
+<body>"""
+
+f.write("<html>")
+f.write("<head>")
+f.write('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">')
+f.write("""<style>
+.checked {
+  color: orange;
+}
+</style>
+""")
+f.write("</head>")
+f.write("<body>")
+f.write("<h1>QuaDoGeo Report</h1>")
 
 #-----------------------------
 # Radar métriques calculées
@@ -163,7 +169,7 @@ for usage in usages:
 
 
 #-----------------------------
-# Render groups
+# Render metrics
 #-----------------------------
 render_group("exhaustivity")
 render_group("logicalConsistency")
