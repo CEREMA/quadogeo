@@ -1,0 +1,16 @@
+<?xml version="1.0"?>   
+<quadogeo>
+<taux>
+<indicateur_1 type="single">0.1</indicateur_1>
+<indicateur_2 type="single">0.5</indicateur_2>
+<indicateur_3 type="single">0.2</indicateur_3>
+<indicateur_4 type="single">0.4</indicateur_4>
+</taux>
+<synthese>
+<indicateur_5.1>0.1</indicateur_5.1>
+<indicateur_5.2>0.5</indicateur_5.2>
+<indicateur_5.3>0.2</indicateur_5.3>
+<indicateur_5.4>0.4</indicateur_5.4>
+</synthese>
+</quadogeo>
+<!--<indicateur_2>0.5</indicateur_2>        -->

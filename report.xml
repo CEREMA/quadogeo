@@ -1,0 +1,30 @@
+<?xml version="1.0"?>   
+<quadogeo>
+<txEx group="exhaustivity" valueType="Real">0.1</txEx>
+<NonConfConceptuelle group="logicalConsistency" valueType="Boolean">False</NonConfConceptuelle>
+<txConfDomVal group="logicalConsistency" valueType="Real">0.2</txConfDomVal>
+<confStructPhysiq group="logicalConsistency" valueType="Boolean">False</confStructPhysiq>
+<tauxErrFormat group="logicalConsistency" valueType="Real">0.1</tauxErrFormat>
+<tauxConnexErr group="logicalConsistency" valueType="Real">0.5</tauxConnexErr>
+<nbMicroSurfErr group="logicalConsistency" valueType="Integer">10</nbMicroSurfErr>
+<nbBoucle group="logicalConsistency" valueType="Integer">20</nbBoucle>
+<nbChevauchErr group="logicalConsistency" valueType="Integer">30</nbChevauchErr>
+<ClassePrecisionArrete2003 group="positionAccuracy" valueType="Text">Classe 1</ClassePrecisionArrete2003>
+<valMoyIncertitude group="positionAccuracy" valueType="Real">0.3</valMoyIncertitude>
+<errCirculaireP95 group="positionAccuracy" valueType="Real">0.5</errCirculaireP95>
+<ErrVerticaleRelative group="positionAccuracy" valueType="Real">0.4</ErrVerticaleRelative>
+<ErrHorizontaleRelative group="positionAccuracy" valueType="Real">0.3</ErrHorizontaleRelative>
+<RMCM group="thematicAccuracy" valueType="Matrix">50,30,20</RMCM>
+<kappa group="thematicAccuracy" valueType="Integer">-1</kappa>
+<tauxValAttOk group="thematicAccuracy" valueType="Real">0.3</tauxValAttOk>
+<incertitudeValAttS95 group="thematicAccuracy" valueType="Integer">50</incertitudeValAttS95>
+<exactMesTempoS95 group="temporalAccuracy" valueType="Integer">50</exactMesTempoS95>
+<tauxConfChrono group="temporalAccuracy" valueType="Real">0.3</tauxConfChrono>
+<txConfDomVal group="temporalAccuracy" valueType="Real">0.2</txConfDomVal>
+<genealogie group="genealogy" valueType="Text">lorem</genealogie>
+<resolutionSpatiale group="spatialAccuracy" valueType="Text">lorem</resolutionSpatiale>
+<etendueTemporelle group="temporalAccuracy" valueType="Date">2020-09-29</etendueTemporelle>
+<dateCreation group="referenceDates" valueType="Date">2020-09-29</dateCreation>
+<dateRevision group="referenceDates" valueType="Date">2020-09-29</dateRevision>
+<datePublication group="referenceDates" valueType="Date">2020-09-29</datePublication>
+</quadogeo>
