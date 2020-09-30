@@ -14,7 +14,7 @@ if(len(xml_report) == 0):
 	quit
 else:
 	xml_report = xml_report[0]
-print(xml_report)
+# ~ print(xml_report)
 	
 #----------------------------------
 # Parse XML
@@ -41,14 +41,14 @@ def render_plot(metric, value, valueType, output_plot):
 		render_plot_real(metric, float(value), output_plot)
 		html=("<img src=%s></img>")%(output_plot)    
 		f.write(html)
-	if(valueType=='Integer'): print("Integer")
-	if(valueType=='Text'): print("Text")
-	if(valueType=='Date'): print("Date")
-	if(valueType=='Matrix'): print("Matrix")
+	# ~ if(valueType=='Integer'): print("Integer")
+	# ~ if(valueType=='Text'): print("Text")
+	# ~ if(valueType=='Date'): print("Date")
+	# ~ if(valueType=='Matrix'): print("Matrix")
 
 # render_group
 def render_group(group):
-	print(("## %s")%(group))
+	# ~ print(("## %s")%(group))
 	html=("<h2>%s</h2>")%(group)
 	f.write(html)
 		
@@ -120,10 +120,19 @@ f.write("</head>")
 f.write("<body>")
 f.write("<h1>QuaDoGeo Report</h1>")
 
+
+#-----------------------------
+# Dataset
+#-----------------------------
+dataset = root.find('dataset').text
+f.write("<h2>Dataset</h2>")
+f.write(("<p>%s</p>")%dataset)
+
+
 #-----------------------------
 # Radar métriques calculées
 #-----------------------------
-print("## Dataset quality metrics")
+# ~ print("## Dataset quality metrics")
 
 f.write(("<h2>%s</h2>")%("Dataset quality metrics"))
 
@@ -136,8 +145,8 @@ for elt in synthese:
 	values.append(int(elt.text))
 	stars = render_stars(int(elt.text))
 	f.write(("<p>%s : %s</p>")%(elt.tag, stars))
-print(labels)
-print(values)	
+# ~ print(labels)
+# ~ print(values)	
 
 render_radar(values, labels, 'radar.png')
 
@@ -146,7 +155,7 @@ render_radar(values, labels, 'radar.png')
 # Radar métriques nécessaires
 #-----------------------------
 
-print("## Radars selon usages")
+# ~ print("## Radars selon usages")
 
 usages = root.find('usages')
 
@@ -155,7 +164,7 @@ for usage in usages:
 	usageType = usage.attrib["type"]
 	usageDescription = usage.attrib["description"]
 	f.write(("<h3>%s</h3>")%(usageDescription))
-	print(usageType)
+	# ~ print(usageType)
 	labels = list()
 	values = list()
 	for elt in usage:
@@ -163,8 +172,8 @@ for usage in usages:
 		values.append(int(elt.text))
 		stars = render_stars(int(elt.text))
 		f.write(("<p>%s : %s</p>")%(elt.tag, stars))
-	print(labels)
-	print(values)
+	# ~ print(labels)
+	# ~ print(values)
 	output_plot = ("radar-%s.png")%(usageType)
 	render_radar(values, labels, output_plot)
 
