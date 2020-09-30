@@ -123,9 +123,9 @@ f.write("<h1>QuaDoGeo Report</h1>")
 #-----------------------------
 # Radar métriques calculées
 #-----------------------------
-print("## Radar métriques calculées")
+print("## Dataset quality metrics")
 
-f.write(("<h2>%s</h2>")%("Indicateurs de qualité calculés"))
+f.write(("<h2>%s</h2>")%("Dataset quality metrics"))
 
 synthese = root.find('synthese')
 
@@ -150,10 +150,11 @@ print("## Radars selon usages")
 
 usages = root.find('usages')
 
+f.write("<h2>Metrics depending on usage</h2>")
 for usage in usages:
 	usageType = usage.attrib["type"]
 	usageDescription = usage.attrib["description"]
-	f.write(("<h2>%s</h2>")%(usageDescription))
+	f.write(("<h3>%s</h3>")%(usageDescription))
 	print(usageType)
 	labels = list()
 	values = list()

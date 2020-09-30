@@ -36,7 +36,7 @@
     <spatialAccuracy>2</spatialAccuracy>
   </synthese>
   <usages>
-    <usage type="survey" description="Statistiques spatiales">
+    <usage type="survey" description="Spatial statistics and reports">
       <exhaustivity>4</exhaustivity>
       <logicalConsistency>3</logicalConsistency>
       <positionAccuracy>2</positionAccuracy>
@@ -44,7 +44,7 @@
       <temporalAccuracy>7</temporalAccuracy>
       <spatialAccuracy>9</spatialAccuracy>
     </usage>
-    <usage type="emergency" description="Secours">
+    <usage type="emergency" description="Emergency and rescue">
       <exhaustivity>2</exhaustivity>
       <logicalConsistency>2</logicalConsistency>
       <positionAccuracy>8</positionAccuracy>
