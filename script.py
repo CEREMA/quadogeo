@@ -67,16 +67,59 @@ f = open("report.html", "w")
 
 # write html
 html = """<html>
-<head></head>
+<head>
+</head>
 <body>"""
 
 f.write("<html>")
-f.write("<head></head>")
+f.write("<head>")
+f.write('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">')
+f.write("""<style>
+.checked {
+  color: orange;
+}
+</style>
+""")
+f.write("</head>")
 f.write("<body>")
 f.write("<h1>QuaDoGeo Report</h1>")
 
-# Radar
-print("## Synthèse")
+def render_stars(nStars) :
+	nNonStars = 10 - nStars
+	elt_checked = '<span class="fa fa-star checked"></span>'
+	elt_notChecked = '<span class="fa fa-star"></span>'
+	elts_checked = '\n'.join([elt_checked]*nStars)
+	elts_notChecked = '\n'.join([elt_notChecked]*nNonStars)
+	elts = "%s%s"%(elts_checked, elts_notChecked)
+	return(elts)
+
+
+# Radar data frame
+def render_radar(values, labels, output_plot):
+
+	df = pd.DataFrame(dict(
+		r=values,
+		theta=labels))
+		
+	fig = px.line_polar(df, r='r', theta='theta', line_close=True)
+	fig.update_traces(fill='toself')
+	fig.update_layout(
+		polar=dict(
+		radialaxis=dict(
+			visible=True,
+		range=[0, 10]
+		)))
+	fig.write_image(output_plot)
+	
+	f.write(("<img src='%s'></img>")%(output_plot))
+
+
+#-----------------------------
+# Radar métriques calculées
+#-----------------------------
+print("## Radar métriques calculées")
+
+f.write(("<h2>%s</h2>")%("Indicateurs de qualité calculés"))
 
 synthese = root.find('synthese')
 
@@ -85,19 +128,43 @@ values = list()
 for elt in synthese:
 	labels.append(elt.tag)
 	values.append(int(elt.text))
+	stars = render_stars(int(elt.text))
+	f.write(("<p>%s : %s</p>")%(elt.tag, stars))
 print(labels)
 print(values)	
 
-# Radar data frame
-df = pd.DataFrame(dict(
-    r=values,
-    theta=labels))
-    
-fig = px.line_polar(df, r='r', theta='theta', line_close=True)
-fig.write_image('radar.png')
-f.write("<img src='radar.png'></img>")
+render_radar(values, labels, 'radar.png')
 
+
+#-----------------------------
+# Radar métriques nécessaires
+#-----------------------------
+
+print("## Radars selon usages")
+
+usages = root.find('usages')
+
+for usage in usages:
+	usageType = usage.attrib["type"]
+	usageDescription = usage.attrib["description"]
+	f.write(("<h2>%s</h2>")%(usageDescription))
+	print(usageType)
+	labels = list()
+	values = list()
+	for elt in usage:
+		labels.append(elt.tag)
+		values.append(int(elt.text))
+		stars = render_stars(int(elt.text))
+		f.write(("<p>%s : %s</p>")%(elt.tag, stars))
+	print(labels)
+	print(values)
+	output_plot = ("radar-%s.png")%(usageType)
+	render_radar(values, labels, output_plot)
+
+
+#-----------------------------
 # Render groups
+#-----------------------------
 render_group("exhaustivity")
 render_group("logicalConsistency")
 render_group("positionAccuracy")

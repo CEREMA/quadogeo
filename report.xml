@@ -28,11 +28,29 @@
 <dateRevision group="referenceDates" valueType="Date">2020-09-29</dateRevision>
 <datePublication group="referenceDates" valueType="Date">2020-09-29</datePublication>
 <synthese>
-<exhaustivity>1</exhaustivity>
-<logicalConsistency>2</logicalConsistency>
-<positionAccuracy>4</positionAccuracy>
-<thematicAccuracy>8</thematicAccuracy>
-<temporalAccuracy>3</temporalAccuracy>
-<spatialAccuracy>2</spatialAccuracy>
+  <exhaustivity>1</exhaustivity>
+  <logicalConsistency>2</logicalConsistency>
+  <positionAccuracy>4</positionAccuracy>
+  <thematicAccuracy>8</thematicAccuracy>
+  <temporalAccuracy>3</temporalAccuracy>
+  <spatialAccuracy>2</spatialAccuracy>
 </synthese>
+<usages>
+  <usage type="survey" description="Statistiques spatiales">
+    <exhaustivity>4</exhaustivity>
+    <logicalConsistency>3</logicalConsistency>
+    <positionAccuracy>2</positionAccuracy>
+    <thematicAccuracy>1</thematicAccuracy>
+    <temporalAccuracy>7</temporalAccuracy>
+    <spatialAccuracy>9</spatialAccuracy>
+  </usage>
+  <usage type="emergency" description="Secours">
+    <exhaustivity>2</exhaustivity>
+    <logicalConsistency>2</logicalConsistency>
+    <positionAccuracy>8</positionAccuracy>
+    <thematicAccuracy>4</thematicAccuracy>
+    <temporalAccuracy>3</temporalAccuracy>
+    <spatialAccuracy>2</spatialAccuracy>
+  </usage>
+</usages>
 </quadogeo>
