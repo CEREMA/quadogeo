@@ -60,6 +60,7 @@ def render_group(group):
 		# create plot
 		output_plot = ("%s.png")%metric
 		render_plot(metric, value, valueType, output_plot)
+		
 	
 # open file
 f = open("report.html", "w")
@@ -73,6 +74,28 @@ f.write("<html>")
 f.write("<head></head>")
 f.write("<body>")
 f.write("<h1>QuaDoGeo Report</h1>")
+
+# Radar
+print("## Synthèse")
+
+synthese = root.find('synthese')
+
+labels = list()
+values = list()
+for elt in synthese:
+	labels.append(elt.tag)
+	values.append(int(elt.text))
+print(labels)
+print(values)	
+
+# Radar data frame
+df = pd.DataFrame(dict(
+    r=values,
+    theta=labels))
+    
+fig = px.line_polar(df, r='r', theta='theta', line_close=True)
+fig.write_image('radar.png')
+f.write("<img src='radar.png'></img>")
 
 # Render groups
 render_group("exhaustivity")

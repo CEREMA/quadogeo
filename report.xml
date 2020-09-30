@@ -27,4 +27,12 @@
 <dateCreation group="referenceDates" valueType="Date">2020-09-29</dateCreation>
 <dateRevision group="referenceDates" valueType="Date">2020-09-29</dateRevision>
 <datePublication group="referenceDates" valueType="Date">2020-09-29</datePublication>
+<synthese>
+<exhaustivity>1</exhaustivity>
+<logicalConsistency>2</logicalConsistency>
+<positionAccuracy>4</positionAccuracy>
+<thematicAccuracy>8</thematicAccuracy>
+<temporalAccuracy>3</temporalAccuracy>
+<spatialAccuracy>2</spatialAccuracy>
+</synthese>
 </quadogeo>
