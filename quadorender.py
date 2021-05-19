@@ -33,7 +33,7 @@ def render_plot_real(metric, value, output_plot):
 	df = pd.DataFrame(data)
 	fig = px.pie(df, values='values', names='labels', title=metric, 
 	color='labels', 
-	color_discrete_map={'Conforme':'lightblue', 'Non conforme':'lightcoral'})	
+	color_discrete_map={'Conforme':'#58dd51', 'Non conforme':'#f6e3e7'})	
 	fig.write_image(output_plot)
 	
 # render_plot
@@ -86,7 +86,7 @@ def render_radar(values, labels, output_plot):
 		theta=labels))
 		
 	fig = px.line_polar(df, r='r', theta='theta', line_close=True)
-	fig.update_traces(fill='toself')
+	fig.update_traces(fill='toself', fillcolor='#58dd51', line_color = "#58dd51")
 	fig.update_layout(
 		polar=dict(
 		radialaxis=dict(
