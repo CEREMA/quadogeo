@@ -173,11 +173,16 @@ f.write("<br>")
 #-----------------------------
 # Dataset
 #-----------------------------
+
 dataset = root.find('dataset').text
 f.write("<h2>Dataset</h2>")
 f.write(("<p>%s</p>")%dataset)
 
- 
+f.write('<p>')
+f.write(("Date de création : %s<br>")%root.find('metrics/dateCreation').text)
+f.write(("Date de révision : %s<br>")%root.find('metrics/dateRevision').text)
+f.write(("Date de publication : %s<br>")%root.find('metrics/datePublication').text)
+f.write('</p>')
 
 #-------------------------------------
 # users
