@@ -7,8 +7,9 @@ import sys
 #----------------------------------
 # Script name
 #----------------------------------
-args = sys.argv
-xml_report = [elt for elt in args if '.xml' in elt]
+# ~ args = sys.argv
+# ~ xml_report = [elt for elt in args if '.xml' in elt]
+xml_report = ['report-19157.xml']
 if(len(xml_report) == 0):
 	print("Pas de rapport XML trouvé")
 	quit
@@ -114,12 +115,41 @@ f.write("""<style>
 .checked {
   color: orange;
 }
+
+h1 {
+    color: black;
+    font-size: 2em;
+    line-height: 2.5em;
+}
+
+h2 {
+color: black;
+    font-size: 1.5em;
+    line-height: 2.5em;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to bottom, transparent 50%, #91dd6b 95%);
+    display: inline;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    /* margin-bottom: 100px; */
+    padding-bottom: 2px;
+
+}
+
+body {
+  font-family: Arial;
+}
+
+hr {
+border: 1px solid #e4e4e4;
+}
 </style>
 """)
 f.write("</head>")
 f.write("<body>")
 f.write("<h1>QuaDoGeo Report</h1>")
 
+f.write("<br>")
 
 #-----------------------------
 # Dataset
@@ -128,11 +158,30 @@ dataset = root.find('dataset').text
 f.write("<h2>Dataset</h2>")
 f.write(("<p>%s</p>")%dataset)
 
+f.write("<hr>")
 
-#-----------------------------
-# Radar métriques calculées
-#-----------------------------
-# ~ print("## Dataset quality metrics")
+#-------------------------------------
+# users
+#-------------------------------------
+
+f.write(("<h2>%s</h2>")%("User Advice"))
+
+elt = root.find('users/note')
+
+stars = render_stars(int(elt.text))
+f.write(("<p>%s : %s</p>")%(elt.tag, stars))
+    
+f.write(("<h3>%s</h3>")%("Details"))
+users_details = root.find('users/details')
+for elt in users_details:
+	stars = render_stars(int(elt.text))
+	f.write(("<p>%s : %s</p>")%(elt.tag, stars))
+
+f.write("<hr>")
+
+#-------------------------------------
+# synthese - Radar métriques calculées
+#-------------------------------------
 
 f.write(("<h2>%s</h2>")%("Dataset quality metrics"))
 
@@ -145,15 +194,14 @@ for elt in synthese:
 	values.append(int(elt.text))
 	stars = render_stars(int(elt.text))
 	f.write(("<p>%s : %s</p>")%(elt.tag, stars))
-# ~ print(labels)
-# ~ print(values)	
 
 render_radar(values, labels, 'radar.png')
 
+f.write("<hr>")
 
-#-----------------------------
-# Radar métriques nécessaires
-#-----------------------------
+#-------------------------------------
+# usages - Radar métriques nécessaires
+#-------------------------------------
 
 # ~ print("## Radars selon usages")
 
@@ -177,9 +225,10 @@ for usage in usages:
 	output_plot = ("radar-%s.png")%(usageType)
 	render_radar(values, labels, output_plot)
 
+f.write("<hr>")
 
 #-----------------------------
-# Render metrics
+# metrics - Render metrics
 #-----------------------------
 render_group("exhaustivity")
 render_group("logicalConsistency")

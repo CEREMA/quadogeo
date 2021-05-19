@@ -1,3 +1,9 @@
+dqm : Data Quality Measures
+dqc : Data Quality Common Classes
+mdq : Metadata for Data Quality
+
+---
+
 dataQualityElement.xsd  
 dataQualityResult
 dataQualityEvaluation
@@ -54,7 +60,7 @@ Par exemple :
 
 Le nom est AbstractDQ_Completeness_PropertyType
 
-On va dans le XML dqm.xml
+On va dans le XML `dqm_valid.xml`
 
-On repère la propriété gco:nilReason
+Voir dqm.xml
 

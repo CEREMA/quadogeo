@@ -43,6 +43,18 @@
     <spatialAccuracy>2</spatialAccuracy>
     <usability>2</usability>
   </synthese>
+  <users>
+    <note>3</note>
+    <details>
+      <exhaustivity>1</exhaustivity>
+      <logicalConsistency>2</logicalConsistency>
+      <positionAccuracy>4</positionAccuracy>
+      <thematicAccuracy>8</thematicAccuracy>
+      <temporalAccuracy>3</temporalAccuracy>
+      <spatialAccuracy>2</spatialAccuracy>
+      <usability>2</usability>
+    </details>
+  </users>
   <usages>
     <usage type="survey" description="Spatial statistics and reports">
       <exhaustivity>4</exhaustivity>
