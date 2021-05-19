@@ -60,7 +60,7 @@ def render_group(group):
 		valueType = elt.attrib["valueType"]
 		
 		# write values to html
-		html=("<p>%s : %s</p>")%(metric, value)
+		html=("<p>%s %s</p>")%(metric, value)
 		f.write(html)
 		
 		# create plot
@@ -68,8 +68,8 @@ def render_group(group):
 		render_plot(metric, value, valueType, output_plot)	
 		
 # Render stars
-def render_stars(nStars) :
-	nNonStars = 10 - nStars
+def render_stars(nStars, n = 5) :
+	nNonStars = n - nStars
 	elt_checked = '<span class="fa fa-star checked"></span>'
 	elt_notChecked = '<span class="fa fa-star"></span>'
 	elts_checked = '\n'.join([elt_checked]*nStars)
@@ -123,11 +123,11 @@ h1 {
 }
 
 h2 {
-color: black;
+    color: black;
     font-size: 1.5em;
     line-height: 2.5em;
     margin-bottom: 10px;
-    background-image: linear-gradient(to bottom, transparent 50%, #91dd6b 95%);
+    background-image: linear-gradient(to bottom, transparent 50%, #58dd51 95%);
     display: inline;
     letter-spacing: 0.1em;
     font-weight: 700;
@@ -136,8 +136,27 @@ color: black;
 
 }
 
+.fa.fa-star {
+    color:#bebebe;
+}
+
+.fa.fa-star.checked {
+    color:#58dd51;
+}
+
+
+div {
+    border: 1px solid #bebebe;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 .0625rem .125rem 0 rgba(0,0,0,.3);
+    margin-bottom:10px;
+}
+
+
 body {
   font-family: Arial;
+  font-size: 1.2em;
 }
 
 hr {
@@ -158,31 +177,35 @@ dataset = root.find('dataset').text
 f.write("<h2>Dataset</h2>")
 f.write(("<p>%s</p>")%dataset)
 
-f.write("<hr>")
+ 
 
 #-------------------------------------
 # users
 #-------------------------------------
 
+f.write("<div>")
 f.write(("<h2>%s</h2>")%("User Advice"))
 
 elt = root.find('users/note')
 
 stars = render_stars(int(elt.text))
-f.write(("<p>%s : %s</p>")%(elt.tag, stars))
+f.write(("<p>%s %s</p>")%(elt.tag, stars))
     
 f.write(("<h3>%s</h3>")%("Details"))
 users_details = root.find('users/details')
 for elt in users_details:
 	stars = render_stars(int(elt.text))
-	f.write(("<p>%s : %s</p>")%(elt.tag, stars))
+	f.write(("<p>%s %s</p>")%(elt.tag, stars))
 
-f.write("<hr>")
+f.write("</div>")
+
+ 
 
 #-------------------------------------
-# synthese - Radar métriques calculées
+# synthese
 #-------------------------------------
 
+f.write("<div>")
 f.write(("<h2>%s</h2>")%("Dataset quality metrics"))
 
 synthese = root.find('synthese')
@@ -193,20 +216,20 @@ for elt in synthese:
 	labels.append(elt.tag)
 	values.append(int(elt.text))
 	stars = render_stars(int(elt.text))
-	f.write(("<p>%s : %s</p>")%(elt.tag, stars))
+	f.write(("<p>%s %s</p>")%(elt.tag, stars))
 
 render_radar(values, labels, 'radar.png')
-
-f.write("<hr>")
+f.write("</div>")
+ 
 
 #-------------------------------------
-# usages - Radar métriques nécessaires
+# usages
 #-------------------------------------
 
-# ~ print("## Radars selon usages")
 
 usages = root.find('usages')
 
+f.write("<div>")
 f.write("<h2>Metrics depending on usage</h2>")
 for usage in usages:
 	usageType = usage.attrib["type"]
@@ -219,17 +242,18 @@ for usage in usages:
 		labels.append(elt.tag)
 		values.append(int(elt.text))
 		stars = render_stars(int(elt.text))
-		f.write(("<p>%s : %s</p>")%(elt.tag, stars))
-	# ~ print(labels)
-	# ~ print(values)
+		f.write(("<p>%s %s</p>")%(elt.tag, stars))
 	output_plot = ("radar-%s.png")%(usageType)
 	render_radar(values, labels, output_plot)
+f.write("</div>")
 
-f.write("<hr>")
+ 
 
 #-----------------------------
-# metrics - Render metrics
+# metrics
 #-----------------------------
+
+f.write("<div>")
 render_group("exhaustivity")
 render_group("logicalConsistency")
 render_group("positionAccuracy")
@@ -238,6 +262,7 @@ render_group("temporalAccuracy")
 render_group("genealogy")
 render_group("spatialAccuracy")
 render_group("referenDates")
+f.write("</div>")
 
 f.write("</body>")
 f.write("</html>")

@@ -38,7 +38,7 @@
     <exhaustivity>1</exhaustivity>
     <logicalConsistency>2</logicalConsistency>
     <positionAccuracy>4</positionAccuracy>
-    <thematicAccuracy>8</thematicAccuracy>
+    <thematicAccuracy>5</thematicAccuracy>
     <temporalAccuracy>3</temporalAccuracy>
     <spatialAccuracy>2</spatialAccuracy>
     <usability>2</usability>
@@ -49,7 +49,7 @@
       <exhaustivity>1</exhaustivity>
       <logicalConsistency>2</logicalConsistency>
       <positionAccuracy>4</positionAccuracy>
-      <thematicAccuracy>8</thematicAccuracy>
+      <thematicAccuracy>4</thematicAccuracy>
       <temporalAccuracy>3</temporalAccuracy>
       <spatialAccuracy>2</spatialAccuracy>
       <usability>2</usability>
@@ -68,11 +68,11 @@
     <usage type="emergency" description="Emergency and rescue">
       <exhaustivity>2</exhaustivity>
       <logicalConsistency>2</logicalConsistency>
-      <positionAccuracy>8</positionAccuracy>
-      <thematicAccuracy>4</thematicAccuracy>
-      <temporalAccuracy>3</temporalAccuracy>
-      <spatialAccuracy>2</spatialAccuracy>
-      <usability>7</usability>
+      <positionAccuracy>5</positionAccuracy>
+      <thematicAccuracy>3</thematicAccuracy>
+      <temporalAccuracy>1</temporalAccuracy>
+      <spatialAccuracy>1</spatialAccuracy>
+      <usability>1</usability>
     </usage>
   </usages>
 </quadogeo>
