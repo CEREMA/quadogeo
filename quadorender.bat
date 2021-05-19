@@ -2,6 +2,6 @@
 
 set /p xml=Rapport xml : 
 
-C:\Python361\python quadorender.py %xml%
+C:\Python39\python quadorender.py %xml%
 
 pause

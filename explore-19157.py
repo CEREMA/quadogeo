@@ -26,28 +26,12 @@ print(tags)
 nodes = [elt for elt in root if elt.tag in ['{http://www.w3.org/2001/XMLSchema}element']]
 
 for elt in nodes:
-    # ~ if 'element' in elt.tag:
-        # ~ print('element')
-    # ~ elif 'complexType' in elt.tag:
-        # ~ print('complexType')
+    if 'element' in elt.tag:
+        print('element')
+    elif 'complexType' in elt.tag:
+        print('complexType')
     print(elt.attrib['name'])
 
 # ComplexTypes
-# ~ for elt in root.iter('{http://www.w3.org/2001/XMLSchema}complexType'):
-    # ~ print(elt)
-    
-
-    
-# ~ for elt in root.findall((".//*[@group='%s']")%(group)):
-		
-    # ~ metric = elt.tag
-    # ~ value = elt.text
-    # ~ valueType = elt.attrib["valueType"]
-    
-    # ~ # write values to html
-    # ~ html=("<p>%s : %s</p>")%(metric, value)
-    # ~ f.write(html)
-    
-    # ~ # create plot
-    # ~ output_plot = ("%s.png")%metric
-    # ~ render_plot(metric, value, valueType, output_plot)
+for elt in root.iter('{http://www.w3.org/2001/XMLSchema}complexType'):
+    print(elt)
