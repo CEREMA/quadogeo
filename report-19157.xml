@@ -1,0 +1,66 @@
+<?xml version="1.0"?>   
+<quadogeo>
+  <dataset>My Dataset</dataset>
+  <metrics>
+    <!-- Exhaustivy, completeness-->
+    <AbstractDQ_Completeness group="exhaustivity" valueType="Real">0.1</AbstractDQ_Completeness>
+    <DQ_CompletenessCommission group="exhaustivity" valueType="Real">0.1</DQ_CompletenessCommission>
+    <!-- Logical-->
+    <DQ_ConceptualConsistency group="logicalConsistency" valueType="Boolean">True</DQ_ConceptualConsistency>
+    <DQ_DataQuality group="logicalConsistency" valueType="Text">Lorem</DQ_DataQuality>
+    <DQ_FormatConsistency group="logicalConsistency" valueType="Real">0.1</DQ_FormatConsistency>
+    <AbstractDQ_LogicalConsistency group="logicalConsistency" valueType="Boolean">False</AbstractDQ_LogicalConsistency>
+    <DQ_NonQuantitativeAttributeCorrectness group="logicalConsistency" valueType="Boolean">True</DQ_NonQuantitativeAttributeCorrectness>
+    <DQ_TopologicalConsistency group="thematicAccuracy" valueType="Boolean">False</DQ_TopologicalConsistency>
+    <!-- positionAccuracy-->
+    <DQ_AbsoluteExternalPositionalAccuracy group="positionAccuracy" valueType="Real">0.2</DQ_AbsoluteExternalPositionalAccuracy>
+    <AbstractDQ_PositionalAccuracy group="positionAccuracy" valueType="Real">0.3</AbstractDQ_PositionalAccuracy>
+    <DQ_RelativeInternalPositionalAccuracy group="positionAccuracy" valueType="Real">0.5</DQ_RelativeInternalPositionalAccuracy>
+    <!-- thematicAccuracy-->
+    <DQ_DomainConsistency group="thematicAccuracy" valueType="Boolean">True</DQ_DomainConsistency>
+    <DQ_QuantitativeAttributeAccuracy group="thematicAccuracy" valueType="Real">0.2</DQ_QuantitativeAttributeAccuracy>
+    <AbstractDQ_ThematicAccuracy group="thematicAccuracy" valueType="Real">0.6</AbstractDQ_ThematicAccuracy>
+    <!-- temporalAccuracy-->
+    <DQ_TemporalConsistency group="temporalAccuracy" valueType="Boolean">True</DQ_TemporalConsistency>
+    <AbstractDQ_TemporalQuality group="temporalAccuracy" valueType="Duration">00:33:00</AbstractDQ_TemporalQuality>
+    <DQ_TemporalValidity group="temporalAccuracy" valueType="Boolean">False</DQ_TemporalValidity>
+    <DQ_AccuracyOfATimeMeasurement group="temporalAccuracy" valueType="Real">0.1</DQ_AccuracyOfATimeMeasurement>
+    <!-- spatialAccuracy-->
+    <DQ_GriddedDataPositionalAccuracy group="spatialAccuracy" valueType="Real">0.8</DQ_GriddedDataPositionalAccuracy>
+    <!-- usability-->
+    <DQ_UsabilityElement group="usability" valueType="Integer">1</DQ_UsabilityElement>
+    <!-- referenceDates-->
+    <dateCreation group="referenceDates" valueType="Date">2020-09-29</dateCreation>
+    <dateRevision group="referenceDates" valueType="Date">2020-09-29</dateRevision>
+    <datePublication group="referenceDates" valueType="Date">2020-09-29</datePublication>
+  </metrics>
+  <synthese>
+    <exhaustivity>1</exhaustivity>
+    <logicalConsistency>2</logicalConsistency>
+    <positionAccuracy>4</positionAccuracy>
+    <thematicAccuracy>8</thematicAccuracy>
+    <temporalAccuracy>3</temporalAccuracy>
+    <spatialAccuracy>2</spatialAccuracy>
+    <usability>2</usability>
+  </synthese>
+  <usages>
+    <usage type="survey" description="Spatial statistics and reports">
+      <exhaustivity>4</exhaustivity>
+      <logicalConsistency>3</logicalConsistency>
+      <positionAccuracy>2</positionAccuracy>
+      <thematicAccuracy>1</thematicAccuracy>
+      <temporalAccuracy>7</temporalAccuracy>
+      <spatialAccuracy>9</spatialAccuracy>
+      <usability>3</usability>
+    </usage>
+    <usage type="emergency" description="Emergency and rescue">
+      <exhaustivity>2</exhaustivity>
+      <logicalConsistency>2</logicalConsistency>
+      <positionAccuracy>8</positionAccuracy>
+      <thematicAccuracy>4</thematicAccuracy>
+      <temporalAccuracy>3</temporalAccuracy>
+      <spatialAccuracy>2</spatialAccuracy>
+      <usability>7</usability>
+    </usage>
+  </usages>
+</quadogeo>
