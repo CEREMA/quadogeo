@@ -10,11 +10,11 @@
 ## Exécuter le script
 Pour le rapport XML Fr :
 
-	C:\Python36-64\python quadorender.py report-FR.xml
+	python quadorender.py report-FR.xml
 
 Pour le rapport XML 19157 :
 
-	C:\Python36-64\python quadorender.py report-19157.xml
+	python quadorender.py report-19157.xml
 
 Cela crée :
 
