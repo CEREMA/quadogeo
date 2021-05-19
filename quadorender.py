@@ -166,9 +166,6 @@ border: 1px solid #e4e4e4;
 """)
 f.write("</head>")
 f.write("<body>")
-f.write("<h1>QuaDoGeo Report</h1>")
-
-f.write("<br>")
 
 #-----------------------------
 # Dataset
@@ -260,12 +257,19 @@ f.write("</div>")
 
 f.write("<div>")
 render_group("exhaustivity")
+f.write("<br>")
 render_group("logicalConsistency")
+f.write("<br>")
 render_group("positionAccuracy")
+f.write("<br>")
 render_group("thematicAccuracy")
+f.write("<br>")
 render_group("temporalAccuracy")
+f.write("<br>")
 render_group("genealogy")
+f.write("<br>")
 render_group("spatialAccuracy")
+f.write("<br>")
 render_group("referenDates")
 f.write("</div>")
 
