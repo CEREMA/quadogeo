@@ -2,8 +2,10 @@
 	pip install -r requirements.txt
 
 
-## Eléments
-- [quadorender.py](quadorender.py) : script de rendu 
+## Entrées
+- [quadorender.py](quadorender.py) : script de rendu
+
+### Rapports XML
 - [report-FR.xml](report-FR.xml) : rapport XML quadogeo
 - [report-19157.xml](report-19157.xml) : rapport XML quadogeo
 
