@@ -6,15 +6,15 @@
 - [quadorender.py](quadorender.py) : script de rendu
 
 ### Rapports XML
-- [report-FR.xml](report-FR.xml) : rapport XML quadogeo
-- [report-19157.xml](report-19157.xml) : rapport XML quadogeo
+- [report-FR.xml](report-FR.xml) : rapport XML inspiré du Répertoire Français des Méta-données
+- [report-19157.xml](report-19157.xml) : rapport XML inspiré de la norme ISO 19157
 
 ## Exécuter le script
 Pour le rapport XML Fr :
 
 	python quadorender.py report-FR.xml
 
-Pour le rapport XML 19157 :
+Pour le rapport XML ISO 19157 :
 
 	python quadorender.py report-19157.xml
 
