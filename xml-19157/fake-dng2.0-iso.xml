@@ -1,0 +1,2537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		<gmd:MD_Metadata xmlns:egco="urn:dgiwg:xmlns:dmf:1.0:iso-g1:egco" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:mf="http://eden.ign.fr/xsd/metafor/20130116/mf" xmlns:ngmp="urn:int:nato:geometoc:geo:metadata:ngmp:1.0" xmlns:sgi="urn:X-dng:xmlns:dng:2.0:canonic:sgi" xmlns:sgp="urn:X-dng:xmlns:dng:2.0:canonic:sgp" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<gmd:fileIdentifier>
+				<gco:CharacterString>mdid_AD</gco:CharacterString>
+			</gmd:fileIdentifier>
+			<gmd:language>
+				<gmd:LanguageCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#LanguageCode" codeListValue="eng">English</gmd:LanguageCode>
+			</gmd:language>
+			<gmd:characterSet>
+				<gmd:MD_CharacterSetCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+			</gmd:characterSet>
+			<gmd:hierarchyLevel>
+				<gmx:MX_ScopeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MX_ScopeCode" codeListValue="dataset">Dataset</gmx:MX_ScopeCode>
+			</gmd:hierarchyLevel>
+			<gmd:hierarchyLevelName>
+				<gco:CharacterString>Elementary Product</gco:CharacterString>
+			</gmd:hierarchyLevelName>
+			<gmd:contact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>EGI</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:phone>
+								<gmd:CI_Telephone>
+									<gmd:voice>
+										<gco:CharacterString>+ 33 (0)344287557</gco:CharacterString>
+									</gmd:voice>
+									<gmd:facsimile>
+										<gco:CharacterString>+33 (0)344286357</gco:CharacterString>
+									</gmd:facsimile>
+								</gmd:CI_Telephone>
+							</gmd:phone>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:deliveryPoint>
+										<gco:CharacterString>BA 110</gco:CharacterString>
+									</gmd:deliveryPoint>
+									<gmd:city>
+										<gco:CharacterString>CREIL cedex</gco:CharacterString>
+									</gmd:city>
+									<gmd:postalCode>
+										<gco:CharacterString>60314</gco:CharacterString>
+									</gmd:postalCode>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>EMA.EGI-CREIL.contact-clients@intradef.gouv.fr</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#CI_RoleCode" codeListValue="pointOfContact">Point of contact</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:contact>
+			<gmd:contact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>IGN</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#CI_RoleCode" codeListValue="author">Author</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:contact>
+			<gmd:dateStamp>
+				<gco:Date>2015-06-03</gco:Date>
+			</gmd:dateStamp>
+			<gmd:metadataStandardName>
+				<gco:CharacterString>ISO 19115</gco:CharacterString>
+			</gmd:metadataStandardName>
+			<gmd:metadataStandardVersion>
+				<gco:CharacterString>1.0</gco:CharacterString>
+			</gmd:metadataStandardVersion>
+			<gmd:spatialRepresentationInfo>
+				<gmd:MD_Georectified>
+					<gmd:numberOfDimensions>
+						<gco:Integer>2</gco:Integer>
+					</gmd:numberOfDimensions>
+					<gmd:axisDimensionProperties>
+						<gmd:MD_Dimension>
+							<gmd:dimensionName>
+								<gmd:MD_DimensionNameTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_DimensionNameTypeCode" codeListValue="row">Row</gmd:MD_DimensionNameTypeCode>
+							</gmd:dimensionName>
+							<gmd:dimensionSize>
+								<gco:Integer>35840</gco:Integer>
+							</gmd:dimensionSize>
+							<gmd:resolution>
+								<gco:Length uom="http://eden.ign.fr/catalogue/cargene/20050620/uom/uom.xml#sec">0.016741080</gco:Length>
+							</gmd:resolution>
+						</gmd:MD_Dimension>
+					</gmd:axisDimensionProperties>
+					<gmd:axisDimensionProperties>
+						<gmd:MD_Dimension>
+							<gmd:dimensionName>
+								<gmd:MD_DimensionNameTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_DimensionNameTypeCode" codeListValue="column">Column</gmd:MD_DimensionNameTypeCode>
+							</gmd:dimensionName>
+							<gmd:dimensionSize>
+								<gco:Integer>33280</gco:Integer>
+							</gmd:dimensionSize>
+							<gmd:resolution>
+								<gco:Length uom="http://eden.ign.fr/catalogue/cargene/20050620/uom/uom.xml#sec">0.018028800</gco:Length>
+							</gmd:resolution>
+						</gmd:MD_Dimension>
+					</gmd:axisDimensionProperties>
+					<gmd:cellGeometry>
+						<gmd:MD_CellGeometryCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_CellGeometryCode" codeListValue="area">Area</gmd:MD_CellGeometryCode>
+					</gmd:cellGeometry>
+					<gmd:transformationParameterAvailability>
+						<gco:Boolean>true</gco:Boolean>
+					</gmd:transformationParameterAvailability>
+					<gmd:checkPointAvailability>
+						<gco:Boolean>false</gco:Boolean>
+					</gmd:checkPointAvailability>
+					<gmd:cornerPoints>
+						<gml:Point srsName="http://eden.ign.fr/catalogue/cargene/20050620/crs/crs.xml#WGS84G" gml:id="point0">
+							<gml:pos>18.500002504 21.833331008</gml:pos>
+						</gml:Point>
+					</gmd:cornerPoints>
+					<gmd:cornerPoints>
+						<gml:Point srsName="http://eden.ign.fr/catalogue/cargene/20050620/crs/crs.xml#WGS84G" gml:id="point1">
+							<gml:pos>18.66666374 21.66666891</gml:pos>
+						</gml:Point>
+					</gmd:cornerPoints>
+					<gmd:pointInPixel>
+						<gmd:MD_PixelOrientationCode>center</gmd:MD_PixelOrientationCode>
+					</gmd:pointInPixel>
+				</gmd:MD_Georectified>
+			</gmd:spatialRepresentationInfo>
+			<gmd:referenceSystemInfo>
+				<gmd:MD_ReferenceSystem>
+					<gmd:referenceSystemIdentifier>
+						<gmd:RS_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="http://eden.ign.fr/catalogue/cargene/20050620/crs/crs.xml#WGS84G">WGS84G</gmx:Anchor>
+							</gmd:code>
+							<gmd:codeSpace>
+								<gco:CharacterString>CARGENE_v10</gco:CharacterString>
+							</gmd:codeSpace>
+						</gmd:RS_Identifier>
+					</gmd:referenceSystemIdentifier>
+				</gmd:MD_ReferenceSystem>
+			</gmd:referenceSystemInfo>
+			<gmd:identificationInfo>
+				<gmd:MD_DataIdentification>
+					<gmd:citation>
+						<gmd:CI_Citation>
+							<gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>ORTHO IMAGE Level 4 single product on Chad</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Produit unitaire ORTHO-N4 sur le Tchad</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:title>
+							<gmd:alternateTitle>
+								<gco:CharacterString>This product provides pansharpened orthorectified images made from PLEIADES 1A and PLEIADES 1B satellite images.</gco:CharacterString>
+							</gmd:alternateTitle>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2015-06-03</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2015-06-03</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#CI_DateTypeCode" codeListValue="validity">Validity</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+							<gmd:edition>
+								<gco:CharacterString>1</gco:CharacterString>
+							</gmd:edition>
+							<gmd:editionDate>
+								<gco:Date>2015-06-03</gco:Date>
+							</gmd:editionDate>
+							<gmd:identifier>
+								<gmd:MD_Identifier>
+									<gmd:code>
+										<gco:CharacterString>urn:X-dng:2.0:pu:imageCoverage:50cm:J2:COLAL:SOCL1:E018N21-3040:1</gco:CharacterString>
+									</gmd:code>
+								</gmd:MD_Identifier>
+							</gmd:identifier>
+						</gmd:CI_Citation>
+					</gmd:citation>
+					<gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+						<gco:CharacterString>This product provides level 4 pansharpened orthorectified mosaic made from PLEIADES 1A and PLEIADES 1B satellite images focusing on Chad</gco:CharacterString>
+						<gmd:PT_FreeText>
+							<gmd:textGroup>
+								<gmd:LocalisedCharacterString locale="#locale-fra">Ce produit fournit une mosaïque orthorectifiée de niveau 4 produite à partir d'images multispectrales issues des satellites PLEIADES 1A et PLEIADES 1B portant sur le Tchad</gmd:LocalisedCharacterString>
+							</gmd:textGroup>
+						</gmd:PT_FreeText>
+					</gmd:abstract>
+					<gmd:purpose xsi:type="gmd:PT_FreeText_PropertyType">
+						<gco:CharacterString>Operational data</gco:CharacterString>
+						<gmd:PT_FreeText>
+							<gmd:textGroup>
+								<gmd:LocalisedCharacterString locale="#locale-fra">Donnée opérationnelle</gmd:LocalisedCharacterString>
+							</gmd:textGroup>
+						</gmd:PT_FreeText>
+					</gmd:purpose>
+					<gmd:pointOfContact>
+						<gmd:CI_ResponsibleParty>
+							<gmd:organisationName>
+								<gco:CharacterString>EGI</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:phone>
+										<gmd:CI_Telephone>
+											<gmd:voice>
+												<gco:CharacterString>+ 33 (0)344287557</gco:CharacterString>
+											</gmd:voice>
+											<gmd:facsimile>
+												<gco:CharacterString>+33 (0)344286357</gco:CharacterString>
+											</gmd:facsimile>
+										</gmd:CI_Telephone>
+									</gmd:phone>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:deliveryPoint>
+												<gco:CharacterString>BA 110</gco:CharacterString>
+											</gmd:deliveryPoint>
+											<gmd:city>
+												<gco:CharacterString>CREIL cedex</gco:CharacterString>
+											</gmd:city>
+											<gmd:postalCode>
+												<gco:CharacterString>60314</gco:CharacterString>
+											</gmd:postalCode>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>EMA.EGI-CREIL.contact-clients@intradef.gouv.fr</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#CI_RoleCode" codeListValue="pointOfContact">Point of contact</gmd:CI_RoleCode>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:pointOfContact>
+					<gmd:graphicOverview>
+						<gmd:MD_BrowseGraphic>
+							<gmd:fileName>
+								<gmx:FileName src="_USERS_MD/E018N21-3040_JAJ2MBAND_ORTH4_001_THU.jpg">_USERS_MD/E018N21-3040_JAJ2MBAND_ORTH4_001_THU.jpg</gmx:FileName>
+							</gmd:fileName>
+							<gmd:fileDescription>
+								<gco:CharacterString>thumbnail</gco:CharacterString>
+							</gmd:fileDescription>
+							<gmd:fileType>
+								<gmx:MimeFileType type="image/jpg">JPEG image</gmx:MimeFileType>
+							</gmd:fileType>
+						</gmd:MD_BrowseGraphic>
+					</gmd:graphicOverview>
+					<gmd:graphicOverview>
+						<gmd:MD_BrowseGraphic>
+							<gmd:fileName>
+								<gmx:FileName src="E018N21-3040_JAJ2MBAND_ORTH4_001_QLK.jpg">E018N21-3040_JAJ2MBAND_ORTH4_001_QLK.jpg</gmx:FileName>
+							</gmd:fileName>
+							<gmd:fileDescription>
+								<gco:CharacterString>overview</gco:CharacterString>
+							</gmd:fileDescription>
+							<gmd:fileType>
+								<gmx:MimeFileType type="image/jpg">JPEG image</gmx:MimeFileType>
+							</gmd:fileType>
+						</gmd:MD_BrowseGraphic>
+					</gmd:graphicOverview>
+					<gmd:resourceFormat>
+						<gmd:MD_Format id="JP2">
+							<gmd:name>
+								<gmx:Anchor xlink:href="">JPEG2000</gmx:Anchor>
+							</gmd:name>
+							<gmd:version>
+								<gco:CharacterString>2</gco:CharacterString>
+							</gmd:version>
+							<gmd:specification>
+								<gco:CharacterString>ISO/IEC 15444-1-JP2/ISO/IEC 15444-2-JPX/GMLJp2</gco:CharacterString>
+							</gmd:specification>
+						</gmd:MD_Format>
+					</gmd:resourceFormat>
+					<gmd:descriptiveKeywords>
+						<gmd:MD_Keywords>
+							<gmd:keyword>
+								<gco:CharacterString>METAFOR1.0</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:keyword>
+								<gco:CharacterString>CARGENE1.0</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:keyword>
+								<gco:CharacterString>SGP1.1</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:keyword>
+								<gco:CharacterString>DNG2.0</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:keyword>
+								<gco:CharacterString>JPEG2000</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:keyword>
+								<gco:CharacterString>ORTHO-4</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:type>
+								<gmd:MD_KeywordTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_KeywordTypeCode" codeListValue="taxon">Taxonomy</gmd:MD_KeywordTypeCode>
+							</gmd:type>
+							<gmd:thesaurusName>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>Gamme de produits CARGENE - Caractéristiques générales</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2005-06-20</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:edition>
+										<gco:CharacterString>1.0</gco:CharacterString>
+									</gmd:edition>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>CARGENE 1.0</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmd:thesaurusName>
+						</gmd:MD_Keywords>
+					</gmd:descriptiveKeywords>
+					<gmd:descriptiveKeywords>
+						<gmd:MD_Keywords>
+							<gmd:keyword>
+								<gco:CharacterString>orthoimage</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:keyword>
+								<gco:CharacterString>geometry</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:keyword>
+								<gco:CharacterString>optical</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:keyword>
+								<gco:CharacterString>arc</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:type>
+								<gmd:MD_KeywordTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_KeywordTypeCode" codeListValue="search">Search</gmd:MD_KeywordTypeCode>
+							</gmd:type>
+						</gmd:MD_Keywords>
+					</gmd:descriptiveKeywords>
+					<gmd:descriptiveKeywords>
+						<gmd:MD_Keywords>
+							<gmd:keyword>
+								<gco:CharacterString>imageCoverage</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:thesaurusName>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="https://eden.ign.fr/download/geode4d/registre/RegistreTypeDonnee.xml" xlink:title="Geographic Information Type">Geographic Information Type</gmx:Anchor>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2013-06-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist:CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>urn:X-sgp:1.1:codelist:GeoInfoType</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmd:thesaurusName>
+						</gmd:MD_Keywords>
+					</gmd:descriptiveKeywords>
+					<gmd:descriptiveKeywords>
+						<gmd:MD_Keywords>
+							<gmd:keyword>
+								<gco:CharacterString>A</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:thesaurusName>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="https://eden.ign.fr/download/geode4d/registre/RegistreTypeDonnee.xml" xlink:title="Folder code of the Geographic Information Type">Folder code of the Geographic Information Type</gmx:Anchor>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2013-06-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist:CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>urn:X-sgp:1.1:codelist:RepGeoInfoType</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmd:thesaurusName>
+						</gmd:MD_Keywords>
+					</gmd:descriptiveKeywords>
+					<gmd:descriptiveKeywords>
+						<gmd:MD_Keywords>
+							<gmd:keyword>
+								<gco:CharacterString>50cm</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:thesaurusName>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="https://eden.ign.fr/download/geode4d/registre/RegistreEchelle.xml" xlink:title="Geographic Information Scale or Resolution">Geographic Information Scale or Resolution</gmx:Anchor>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2013-06-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist:CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>urn:X-sgp:1.1:codelist:Resolution</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmd:thesaurusName>
+						</gmd:MD_Keywords>
+					</gmd:descriptiveKeywords>
+					<gmd:descriptiveKeywords>
+						<gmd:MD_Keywords>
+							<gmd:keyword>
+								<gco:CharacterString>J</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:thesaurusName>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="https://eden.ign.fr/download/geode4d/registre/RegistreEchelle.xml" xlink:title="Folder code of Geographic Information Scale or Resolution">Folder code of Geographic Information Scale or Resolution</gmx:Anchor>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2013-06-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist:CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>urn:X-sgp:1.1:codelist:RepResolution</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmd:thesaurusName>
+						</gmd:MD_Keywords>
+					</gmd:descriptiveKeywords>
+					<gmd:descriptiveKeywords>
+						<gmd:MD_Keywords>
+							<gmd:keyword>
+								<gco:CharacterString>COLAL</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:thesaurusName>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="https://eden.ign.fr/download/geode4d/registre/RegistreContenu.xml" xlink:title="Geographic Information Content Type">Geographic Information Content Type</gmx:Anchor>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2013-06-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist:CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>urn:X-sgp:1.1:registre:Contenu</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmd:thesaurusName>
+						</gmd:MD_Keywords>
+					</gmd:descriptiveKeywords>
+					<gmd:descriptiveKeywords>
+						<gmd:MD_Keywords>
+							<gmd:keyword>
+								<gco:CharacterString>SOCL1</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:thesaurusName>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="https://eden.ign.fr/download/geode4d/registre/RegistreCouverture.xml" xlink:title="Coverage Identifier">Coverage Identifier</gmx:Anchor>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2013-06-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist:CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>urn:X-sgp:1.1:registre:Couverture</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmd:thesaurusName>
+						</gmd:MD_Keywords>
+					</gmd:descriptiveKeywords>
+					<gmd:descriptiveKeywords>
+						<gmd:MD_Keywords>
+							<gmd:keyword>
+								<gco:CharacterString>L4</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:thesaurusName>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="https://eden.ign.fr/download/geode4d/registre/CodeListNATOLevel.xml" xlink:title="NATO Data Level">NATO Data Level</gmx:Anchor>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2013-06-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist:CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>urn:X-sgp:1.1:codelist:NatoDataLevel</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmd:thesaurusName>
+						</gmd:MD_Keywords>
+					</gmd:descriptiveKeywords>
+					<gmd:descriptiveKeywords>
+						<gmd:MD_Keywords>
+							<gmd:keyword>
+								<gco:CharacterString>georectified</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:thesaurusName>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="https://eden.ign.fr/download/geode4d/registre/CodeListGeoRefLevel.xml" xlink:title="Georeferencing level">Georeferencing level</gmx:Anchor>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2013-06-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist:CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>urn:X-sgp:1.1:codelist:GeoreferencingLevel</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmd:thesaurusName>
+						</gmd:MD_Keywords>
+					</gmd:descriptiveKeywords>
+					<gmd:descriptiveKeywords>
+						<gmd:MD_Keywords>
+							<gmd:keyword>
+								<gco:CharacterString>digital</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:thesaurusName>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="https://eden.ign.fr/download/geode4d/registre/CodeListRepresentationForm.xml" xlink:title="Representation Form">Representation Form</gmx:Anchor>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2013-06-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist:CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>urn:X-sgp:1.1:codelist:RepresentationForm</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmd:thesaurusName>
+						</gmd:MD_Keywords>
+					</gmd:descriptiveKeywords>
+					<gmd:descriptiveKeywords>
+						<gmd:MD_Keywords>
+							<gmd:keyword>
+								<gco:CharacterString>JP2</gco:CharacterString>
+							</gmd:keyword>
+							<gmd:thesaurusName>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="https://eden.ign.fr/download/geode4d/registre/RegistreFormats.xml" xlink:title="Folder code of the format">Folder code of the format</gmx:Anchor>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2013-06-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist:CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>urn:X-sgp:1.1:codelist:RepFormat</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmd:thesaurusName>
+						</gmd:MD_Keywords>
+					</gmd:descriptiveKeywords>
+					<gmd:resourceConstraints>
+						<gmd:MD_LegalConstraints>
+							<gmd:useLimitation xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Limited distribution. For official use only by French Ministry of Defense</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">La reproduction et la diffusion sont interdites sans l’accord formel du Bureau Géographie Hydrographie, Océanographie et Météorologie – 14, rue Saint Dominique – F75700 PARIS SP07 France</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:useLimitation>
+							<gmd:accessConstraints>
+								<gmd:MD_RestrictionCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_RestrictionCode" codeListValue="copyright">Copyright</gmd:MD_RestrictionCode>
+							</gmd:accessConstraints>
+							<gmd:accessConstraints>
+								<gmd:MD_RestrictionCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_RestrictionCode" codeListValue="otherRestrictions">Other restrictions</gmd:MD_RestrictionCode>
+							</gmd:accessConstraints>
+							<gmd:useConstraints>
+								<gmd:MD_RestrictionCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_RestrictionCode" codeListValue="copyright">Copyright</gmd:MD_RestrictionCode>
+							</gmd:useConstraints>
+							<gmd:useConstraints>
+								<gmd:MD_RestrictionCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_RestrictionCode" codeListValue="otherRestrictions">Other restrictions</gmd:MD_RestrictionCode>
+							</gmd:useConstraints>
+							<gmd:otherConstraints xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Property of the French Ministry of Defense</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Propriété du Ministère français de la Défense</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:otherConstraints>
+							<gmd:otherConstraints>
+								<gco:CharacterString>Copyright EMA/B.GHOM 2015</gco:CharacterString>
+							</gmd:otherConstraints>
+							<gmd:otherConstraints>
+								<gco:CharacterString>Copyright Spot Image 2015</gco:CharacterString>
+							</gmd:otherConstraints>
+						</gmd:MD_LegalConstraints>
+					</gmd:resourceConstraints>
+					<gmd:resourceConstraints>
+						<gmd:MD_SecurityConstraints>
+							<gmd:classification>
+								<gmd:MD_ClassificationCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_ClassificationCode" codeListValue="unclassified">Unclassified</gmd:MD_ClassificationCode>
+							</gmd:classification>
+						</gmd:MD_SecurityConstraints>
+					</gmd:resourceConstraints>
+					<gmd:spatialRepresentationType>
+						<gmd:MD_SpatialRepresentationTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_SpatialRepresentationTypeCode" codeListValue="grid">Grid</gmd:MD_SpatialRepresentationTypeCode>
+					</gmd:spatialRepresentationType>
+					<gmd:spatialResolution>
+						<gmd:MD_Resolution>
+							<gmd:distance>
+								<gco:Distance uom="http://eden.ign.fr/catalogue/cargene/20050620/uom/uom.xml#m">0.5</gco:Distance>
+							</gmd:distance>
+						</gmd:MD_Resolution>
+					</gmd:spatialResolution>
+					<gmd:spatialResolution>
+						<gmd:MD_Resolution>
+							<gmd:equivalentScale>
+								<gmd:MD_RepresentativeFraction>
+									<gmd:denominator>
+										<gco:Integer>5000</gco:Integer>
+									</gmd:denominator>
+								</gmd:MD_RepresentativeFraction>
+							</gmd:equivalentScale>
+						</gmd:MD_Resolution>
+					</gmd:spatialResolution>
+					<gmd:language>
+						<gmd:LanguageCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#LanguageCode" codeListValue="eng">English</gmd:LanguageCode>
+					</gmd:language>
+					<gmd:characterSet>
+						<gmd:MD_CharacterSetCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#CharacterSetCode" codeListValue="utf8"></gmd:MD_CharacterSetCode>
+					</gmd:characterSet>
+					<gmd:topicCategory>
+						<gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+					</gmd:topicCategory>
+					<gmd:extent>
+						<gmd:EX_Extent>
+							<gmd:description>
+								<gco:CharacterString>WGS84 Bounding Box</gco:CharacterString>
+							</gmd:description>
+							<gmd:geographicElement>
+								<gmd:EX_GeographicBoundingBox>
+									<gmd:westBoundLongitude>
+										<gco:Decimal>18.500000</gco:Decimal>
+									</gmd:westBoundLongitude>
+									<gmd:eastBoundLongitude>
+										<gco:Decimal>18.666667</gco:Decimal>
+									</gmd:eastBoundLongitude>
+									<gmd:southBoundLatitude>
+										<gco:Decimal>21.666667</gco:Decimal>
+									</gmd:southBoundLatitude>
+									<gmd:northBoundLatitude>
+										<gco:Decimal>21.833333</gco:Decimal>
+									</gmd:northBoundLatitude>
+								</gmd:EX_GeographicBoundingBox>
+							</gmd:geographicElement>
+						</gmd:EX_Extent>
+					</gmd:extent>
+					<gmd:extent>
+						<gmd:EX_Extent>
+							<gmd:description>
+								<gco:CharacterString>Bounding polygon</gco:CharacterString>
+							</gmd:description>
+							<gmd:geographicElement>
+								<gmd:EX_BoundingPolygon>
+									<gmd:polygon>
+										<gml:Surface gml:id="surfaceidEXTGEOx2x93">
+											<gml:patches>
+												<gml:PolygonPatch>
+													<gml:exterior>
+														<gml:Ring>
+															<gml:curveMember>
+																<gml:Curve gml:id="curveidPolygonex2x94">
+																	<gml:segments>
+																		<gml:LineStringSegment>
+																			<gml:pos>18.500000 21.666667</gml:pos>
+																			<gml:pos>18.500000 21.833333</gml:pos>
+																		</gml:LineStringSegment>
+																		<gml:LineStringSegment>
+																			<gml:pos>18.500000 21.833333</gml:pos>
+																			<gml:pos>18.666667 21.833333</gml:pos>
+																		</gml:LineStringSegment>
+																		<gml:LineStringSegment>
+																			<gml:pos>18.666667 21.833333</gml:pos>
+																			<gml:pos>18.666667 21.666667</gml:pos>
+																		</gml:LineStringSegment>
+																		<gml:LineStringSegment>
+																			<gml:pos>18.666667 21.666667</gml:pos>
+																			<gml:pos>18.500000 21.666667</gml:pos>
+																		</gml:LineStringSegment>
+																	</gml:segments>
+																</gml:Curve>
+															</gml:curveMember>
+														</gml:Ring>
+													</gml:exterior>
+												</gml:PolygonPatch>
+											</gml:patches>
+										</gml:Surface>
+									</gmd:polygon>
+								</gmd:EX_BoundingPolygon>
+							</gmd:geographicElement>
+						</gmd:EX_Extent>
+					</gmd:extent>
+					<gmd:extent>
+						<gmd:EX_Extent>
+							<gmd:description>
+								<gco:CharacterString>Geographic identifier</gco:CharacterString>
+							</gmd:description>
+							<gmd:geographicElement>
+								<gmd:EX_GeographicDescription>
+									<gmd:geographicIdentifier>
+										<gmd:RS_Identifier>
+											<gmd:code>
+												<gco:CharacterString>E018N21-3040</gco:CharacterString>
+											</gmd:code>
+											<gmd:codeSpace>
+												<gco:CharacterString>urn:X-sgp:1.1:element:GEOLOC</gco:CharacterString>
+											</gmd:codeSpace>
+										</gmd:RS_Identifier>
+									</gmd:geographicIdentifier>
+								</gmd:EX_GeographicDescription>
+							</gmd:geographicElement>
+						</gmd:EX_Extent>
+					</gmd:extent>
+					<gmd:supplementalInformation>
+						<gco:CharacterString>REM_AD</gco:CharacterString>
+					</gmd:supplementalInformation>
+				</gmd:MD_DataIdentification>
+			</gmd:identificationInfo>
+			<gmd:contentInfo>
+				<gmi:MI_CoverageDescription>
+					<gmd:attributeDescription>
+						<gco:RecordType/>
+					</gmd:attributeDescription>
+					<gmd:contentType>
+						<gmd:MD_CoverageContentTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_CoverageContentTypeCode" codeListValue="image">Image</gmd:MD_CoverageContentTypeCode>
+					</gmd:contentType>
+					<gmd:dimension>
+						<gmd:MD_Band>
+							<gmd:sequenceIdentifier>
+								<gco:MemberName>
+									<gco:aName>
+										<gco:CharacterString>red</gco:CharacterString>
+									</gco:aName>
+									<gco:attributeType>
+										<gco:TypeName>
+											<gco:aName>
+												<gco:CharacterString>integer</gco:CharacterString>
+											</gco:aName>
+										</gco:TypeName>
+									</gco:attributeType>
+								</gco:MemberName>
+							</gmd:sequenceIdentifier>
+							<gmd:descriptor>
+								<gco:CharacterString>red canal</gco:CharacterString>
+							</gmd:descriptor>
+							<gmd:maxValue>
+								<gco:Real>180</gco:Real>
+							</gmd:maxValue>
+							<gmd:minValue>
+								<gco:Real>20</gco:Real>
+							</gmd:minValue>
+							<gmd:bitsPerValue>
+								<gco:Integer>8</gco:Integer>
+							</gmd:bitsPerValue>
+						</gmd:MD_Band>
+					</gmd:dimension>
+					<gmd:dimension>
+						<gmd:MD_Band>
+							<gmd:sequenceIdentifier>
+								<gco:MemberName>
+									<gco:aName>
+										<gco:CharacterString>green</gco:CharacterString>
+									</gco:aName>
+									<gco:attributeType>
+										<gco:TypeName>
+											<gco:aName>
+												<gco:CharacterString>integer</gco:CharacterString>
+											</gco:aName>
+										</gco:TypeName>
+									</gco:attributeType>
+								</gco:MemberName>
+							</gmd:sequenceIdentifier>
+							<gmd:descriptor>
+								<gco:CharacterString>green canal</gco:CharacterString>
+							</gmd:descriptor>
+							<gmd:maxValue>
+								<gco:Real>180</gco:Real>
+							</gmd:maxValue>
+							<gmd:minValue>
+								<gco:Real>20</gco:Real>
+							</gmd:minValue>
+							<gmd:bitsPerValue>
+								<gco:Integer>8</gco:Integer>
+							</gmd:bitsPerValue>
+						</gmd:MD_Band>
+					</gmd:dimension>
+					<gmd:dimension>
+						<gmd:MD_Band>
+							<gmd:sequenceIdentifier>
+								<gco:MemberName>
+									<gco:aName>
+										<gco:CharacterString>blue</gco:CharacterString>
+									</gco:aName>
+									<gco:attributeType>
+										<gco:TypeName>
+											<gco:aName>
+												<gco:CharacterString>integer</gco:CharacterString>
+											</gco:aName>
+										</gco:TypeName>
+									</gco:attributeType>
+								</gco:MemberName>
+							</gmd:sequenceIdentifier>
+							<gmd:descriptor>
+								<gco:CharacterString>blue canal</gco:CharacterString>
+							</gmd:descriptor>
+							<gmd:maxValue>
+								<gco:Real>180</gco:Real>
+							</gmd:maxValue>
+							<gmd:minValue>
+								<gco:Real>20</gco:Real>
+							</gmd:minValue>
+							<gmd:bitsPerValue>
+								<gco:Integer>8</gco:Integer>
+							</gmd:bitsPerValue>
+						</gmd:MD_Band>
+					</gmd:dimension>
+					<gmd:dimension>
+						<gmd:MD_Band>
+							<gmd:sequenceIdentifier>
+								<gco:MemberName>
+									<gco:aName>
+										<gco:CharacterString>PIR</gco:CharacterString>
+									</gco:aName>
+									<gco:attributeType>
+										<gco:TypeName>
+											<gco:aName>
+												<gco:CharacterString>integer</gco:CharacterString>
+											</gco:aName>
+										</gco:TypeName>
+									</gco:attributeType>
+								</gco:MemberName>
+							</gmd:sequenceIdentifier>
+							<gmd:descriptor>
+								<gco:CharacterString>PIR</gco:CharacterString>
+							</gmd:descriptor>
+							<gmd:maxValue>
+								<gco:Real>180</gco:Real>
+							</gmd:maxValue>
+							<gmd:minValue>
+								<gco:Real>20</gco:Real>
+							</gmd:minValue>
+							<gmd:bitsPerValue>
+								<gco:Integer>8</gco:Integer>
+							</gmd:bitsPerValue>
+						</gmd:MD_Band>
+					</gmd:dimension>
+					<gmi:rangeElementDescription>
+						<gmi:MI_RangeElementDescription>
+							<gmi:name xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Padding pixel value</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Valeur de remplissage</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmi:name>
+							<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Color code for no information data element</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de remplissage ne contenant pas d'information</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmi:definition>
+							<gmi:rangeElement>
+								<gco:Record>
+									<egco:property name="red">
+										<gml:Count>0</gml:Count>
+									</egco:property>
+									<egco:property name="green">
+										<gml:Count>0</gml:Count>
+									</egco:property>
+									<egco:property name="blue">
+										<gml:Count>0</gml:Count>
+									</egco:property>
+									<egco:property name="alpha">
+										<gml:Count>0</gml:Count>
+									</egco:property>
+								</gco:Record>
+							</gmi:rangeElement>
+						</gmi:MI_RangeElementDescription>
+					</gmi:rangeElementDescription>
+				</gmi:MI_CoverageDescription>
+			</gmd:contentInfo>
+			<gmd:dataQualityInfo>
+				<gmd:DQ_DataQuality>
+					<gmd:scope>
+						<gmd:DQ_Scope>
+							<gmd:level>
+								<gmx:MX_ScopeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MX_ScopeCode" codeListValue="dataset">Dataset</gmx:MX_ScopeCode>
+							</gmd:level>
+						</gmd:DQ_Scope>
+					</gmd:scope>
+					<gmd:report>
+						<gmd:DQ_AbsoluteExternalPositionalAccuracy>
+							<gmd:nameOfMeasure xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Synthetic expression of the horizontal quality</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Indication synthétique de la qualité planimétrique</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:nameOfMeasure>
+							<gmd:measureIdentification>
+								<gmd:RS_Identifier>
+									<gmd:code>
+										<gco:CharacterString>PACC</gco:CharacterString>
+									</gmd:code>
+									<gmd:codeSpace>
+										<gco:CharacterString>CARGENE_v10</gco:CharacterString>
+									</gmd:codeSpace>
+								</gmd:RS_Identifier>
+							</gmd:measureIdentification>
+							<gmd:measureDescription xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Absolute horizontal accuracy of the ressource expressed using the codes defined in STANAG 2215</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Expression de la précision planimétrique absolue de la ressource suivant la codification proposée par le STANAG 2215</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:measureDescription>
+							<gmd:result>
+								<gmd:DQ_QuantitativeResult>
+									<gmd:valueType>
+										<gco:RecordType xlink:href="urn:dgiwg:metadata:dmf:1.0:xmlns:w3:XMLSchema:2001:string"/>
+									</gmd:valueType>
+									<gmd:valueUnit gco:nilReason="inapplicable"/>
+									<gmd:value>
+										<gco:Record xsi:type="xs:string">C</gco:Record>
+									</gmd:value>
+								</gmd:DQ_QuantitativeResult>
+							</gmd:result>
+						</gmd:DQ_AbsoluteExternalPositionalAccuracy>
+					</gmd:report>
+					<gmd:report>
+						<gmd:DQ_AbsoluteExternalPositionalAccuracy>
+							<gmd:nameOfMeasure xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Synthetic expression of the vertical quality</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Indication synthétique de la qualité altimétrique</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:nameOfMeasure>
+							<gmd:measureIdentification>
+								<gmd:RS_Identifier>
+									<gmd:code>
+										<gco:CharacterString>VACC</gco:CharacterString>
+									</gmd:code>
+									<gmd:codeSpace>
+										<gco:CharacterString>CARGENE_v10</gco:CharacterString>
+									</gmd:codeSpace>
+								</gmd:RS_Identifier>
+							</gmd:measureIdentification>
+							<gmd:measureDescription xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Absolute vertical accuracy of the ressource expressed using the codes defined in STANAG 2215</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Expression de la précision planimétrique absolue de la ressource suivant la codification proposée par le STANAG 2215</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:measureDescription>
+							<gmd:result>
+								<gmd:DQ_QuantitativeResult>
+									<gmd:valueType>
+										<gco:RecordType xlink:href="urn:dgiwg:metadata:dmf:1.0:xmlns:w3:XMLSchema:2001:string"/>
+									</gmd:valueType>
+									<gmd:valueUnit gco:nilReason="inapplicable"/>
+									<gmd:value>
+										<gco:Record xsi:type="xs:string">4</gco:Record>
+									</gmd:value>
+								</gmd:DQ_QuantitativeResult>
+							</gmd:result>
+						</gmd:DQ_AbsoluteExternalPositionalAccuracy>
+					</gmd:report>
+					<gmd:report>
+						<gmi:QE_Usability>
+							<gmd:nameOfMeasure xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Synthetic expression of the reliability</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Indication synthétique de fidélité</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:nameOfMeasure>
+							<gmd:measureIdentification>
+								<gmd:RS_Identifier>
+									<gmd:code>
+										<gco:CharacterString>FIDEL</gco:CharacterString>
+									</gmd:code>
+									<gmd:codeSpace>
+										<gco:CharacterString>CARGENE_v10</gco:CharacterString>
+									</gmd:codeSpace>
+								</gmd:RS_Identifier>
+							</gmd:measureIdentification>
+							<gmd:measureDescription xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Conformance to the product or product specification</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Expression de la conformité de la ressource à la spécification de produit ou de production</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:measureDescription>
+							<gmd:result>
+								<gmd:DQ_ConformanceResult>
+									<gmd:specification>
+										<gmd:CI_Citation>
+											<gmd:title>
+												<gmx:Anchor xlink:href="G4D-PROD-DDP-OMOS"></gmx:Anchor>
+											</gmd:title>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date></gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+											<gmd:edition>
+												<gco:CharacterString></gco:CharacterString>
+											</gmd:edition>
+											<gmd:identifier>
+												<gmd:MD_Identifier>
+													<gmd:code>
+														<gco:CharacterString></gco:CharacterString>
+													</gmd:code>
+												</gmd:MD_Identifier>
+											</gmd:identifier>
+										</gmd:CI_Citation>
+									</gmd:specification>
+									<gmd:explanation gco:nilReason="inapplicable"/>
+									<gmd:pass gco:nilReason="unknown"/>
+								</gmd:DQ_ConformanceResult>
+							</gmd:result>
+						</gmi:QE_Usability>
+					</gmd:report>
+				</gmd:DQ_DataQuality>
+			</gmd:dataQualityInfo>
+			<gmd:dataQualityInfo>
+				<gmd:DQ_DataQuality>
+					<gmd:scope>
+						<gmd:DQ_Scope>
+							<gmd:level>
+								<gmx:MX_ScopeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MX_ScopeCode" codeListValue="dataset">Dataset</gmx:MX_ScopeCode>
+							</gmd:level>
+						</gmd:DQ_Scope>
+					</gmd:scope>
+					<gmd:report>
+						<gmi:QE_Usability>
+							<gmd:nameOfMeasure xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Lineary quality object</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Objet qualité linéaire</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:nameOfMeasure>
+							<gmd:measureIdentification>
+								<gmd:RS_Identifier>
+									<gmd:code>
+										<gco:CharacterString>LTOBJE</gco:CharacterString>
+									</gmd:code>
+									<gmd:codeSpace>
+										<gco:CharacterString>CARGENE_v10</gco:CharacterString>
+									</gmd:codeSpace>
+								</gmd:RS_Identifier>
+							</gmd:measureIdentification>
+							<gmd:measureDescription xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>This layer contains the nature of the discontinuity and the bias in meter</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Cette couche décrit la nature de la discontinuité rencontrée sur la ligne de mosaïquage ainsi que l'écart en mètre</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:measureDescription>
+							<gmd:result>
+								<gmi:QE_CoverageResult>
+									<gmi:spatialRepresentationType>
+										<gmd:MD_SpatialRepresentationTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_SpatialRepresentationTypeCode" codeListValue="vector">Vector</gmd:MD_SpatialRepresentationTypeCode>
+									</gmi:spatialRepresentationType>
+									<gmi:resultSpatialRepresentation>
+										<gmd:MD_VectorSpatialRepresentation>
+											<gmd:geometricObjects>
+												<gmd:MD_GeometricObjects>
+													<gmd:geometricObjectType>
+														<gmd:MD_GeometricObjectTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_GeometricObjectTypeCode" codeListValue="curve">Curve</gmd:MD_GeometricObjectTypeCode>
+													</gmd:geometricObjectType>
+												</gmd:MD_GeometricObjects>
+											</gmd:geometricObjects>
+										</gmd:MD_VectorSpatialRepresentation>
+									</gmi:resultSpatialRepresentation>
+									<gmi:resultContentDescription>
+										<gmi:MI_CoverageDescription>
+											<gmd:attributeDescription gco:nilReason="inapplicable"/>
+											<gmd:contentType>
+												<gmd:MD_CoverageContentTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_CoverageContentTypeCode" codeListValue="thematicClassification">Thematic classification</gmd:MD_CoverageContentTypeCode>
+											</gmd:contentType>
+											<gmd:dimension>
+												<gmd:MD_Band>
+													<gmd:sequenceIdentifier>
+														<gco:MemberName>
+															<gco:aName>
+																<gco:CharacterString>NATURE</gco:CharacterString>
+															</gco:aName>
+															<gco:attributeType>
+																<gco:TypeName>
+																	<gco:aName>
+																		<gco:CharacterString>identifier</gco:CharacterString>
+																	</gco:aName>
+																</gco:TypeName>
+															</gco:attributeType>
+														</gco:MemberName>
+													</gmd:sequenceIdentifier>
+													<gmd:descriptor>
+														<gco:CharacterString>Discontinuity nature over the line</gco:CharacterString>
+													</gmd:descriptor>
+												</gmd:MD_Band>
+											</gmd:dimension>
+											<gmd:dimension>
+												<gmd:MD_Band>
+													<gmd:sequenceIdentifier>
+														<gco:MemberName>
+															<gco:aName>
+																<gco:CharacterString>ECART</gco:CharacterString>
+															</gco:aName>
+															<gco:attributeType>
+																<gco:TypeName>
+																	<gco:aName>
+																		<gco:CharacterString>real</gco:CharacterString>
+																	</gco:aName>
+																</gco:TypeName>
+															</gco:attributeType>
+														</gco:MemberName>
+													</gmd:sequenceIdentifier>
+													<gmd:descriptor>
+														<gco:CharacterString>Effective planimetric bias value in meter</gco:CharacterString>
+													</gmd:descriptor>
+													<gmd:units xlink:href="http://eden.ign.fr/catalogue/cargene/20050620/uom/uom.xml#m"/>
+												</gmd:MD_Band>
+											</gmd:dimension>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>NATURE#Tide</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition>
+														<gco:CharacterString>Tide effect</gco:CharacterString>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:string">Tide</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>NATURE#WatLevel</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition>
+														<gco:CharacterString>Lowest water level areas</gco:CharacterString>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:string">WatLevel</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>NATURE#Urba</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition>
+														<gco:CharacterString>Urbanization areas</gco:CharacterString>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:string">Urba</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>NATURE#Forest</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition>
+														<gco:CharacterString>Afforestation areas</gco:CharacterString>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:string">Forest</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>NATURE#Other</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition>
+														<gco:CharacterString>Other</gco:CharacterString>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:string">Other</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>NATURE#Processus_Global</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition>
+														<gco:CharacterString>Global bias caused by the production process</gco:CharacterString>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:string">Processus_Global</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>NATURE#Processus_Local</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition>
+														<gco:CharacterString>Local bias caused by the production process</gco:CharacterString>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:string">Processus_Local</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+										</gmi:MI_CoverageDescription>
+									</gmi:resultContentDescription>
+									<gmi:resultFormat>
+										<gmd:MD_Format id="QCFMT0">
+											<gmd:name>
+												<gmx:Anchor xlink:href="urn:X-sgp:1.1:registre:Format:gml321">GML 3.2.1</gmx:Anchor>
+											</gmd:name>
+											<gmd:version>
+												<gco:CharacterString>3.2.1</gco:CharacterString>
+											</gmd:version>
+											<gmd:specification>
+												<gco:CharacterString>ISO 19136, draft international standard (DIS), Geographic information - Geography markup language, 2007</gco:CharacterString>
+											</gmd:specification>
+										</gmd:MD_Format>
+									</gmi:resultFormat>
+									<gmi:resultFile>
+										<gmx:MX_DataFile>
+											<gmx:fileName>
+												<gmx:FileName src="_QUALITY/E018N21-3040_JAJ2MBAND_ORTH4_001_QUA.zip/E018N21-3040_JAJ2MBAND_ORTH4_001_LTOBJE.gml">_QUALITY/E018N21-3040_JAJ2MBAND_ORTH4_001_QUA.zip/E018N21-3040_JAJ2MBAND_ORTH4_001_LTOBJE.gml</gmx:FileName>
+											</gmx:fileName>
+											<gmx:fileDescription>
+												<gco:CharacterString>qualifying file</gco:CharacterString>
+											</gmx:fileDescription>
+											<gmx:fileType>
+												<gmx:MimeFileType type="text/xml; subtype=gml/3.2.1">GML file</gmx:MimeFileType>
+											</gmx:fileType>
+											<gmx:fileFormat xlink:href="#QCFMT0"/>
+										</gmx:MX_DataFile>
+									</gmi:resultFile>
+								</gmi:QE_CoverageResult>
+							</gmd:result>
+						</gmi:QE_Usability>
+					</gmd:report>
+				</gmd:DQ_DataQuality>
+			</gmd:dataQualityInfo>
+			<gmd:dataQualityInfo>
+				<gmd:DQ_DataQuality>
+					<gmd:scope>
+						<gmd:DQ_Scope>
+							<gmd:level>
+								<gmx:MX_ScopeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MX_ScopeCode" codeListValue="dataset">Dataset</gmx:MX_ScopeCode>
+							</gmd:level>
+						</gmd:DQ_Scope>
+					</gmd:scope>
+					<gmd:report>
+						<gmi:QE_Usability>
+							<gmd:nameOfMeasure xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Planimetric quality cartography</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Image des zones de qualité planimétrique homogène</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:nameOfMeasure>
+							<gmd:measureIdentification>
+								<gmd:RS_Identifier>
+									<gmd:code>
+										<gco:CharacterString>MGO</gco:CharacterString>
+									</gmd:code>
+									<gmd:codeSpace>
+										<gco:CharacterString>CARGENE_v10</gco:CharacterString>
+									</gmd:codeSpace>
+								</gmd:RS_Identifier>
+							</gmd:measureIdentification>
+							<gmd:measureDescription xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>This mask represents the planimetric evaluated quality</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Ce masque  représente la qualité planimétrique homogène</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:measureDescription>
+							<gmd:result>
+								<gmi:QE_CoverageResult>
+									<gmi:spatialRepresentationType>
+										<gmd:MD_SpatialRepresentationTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_SpatialRepresentationTypeCode" codeListValue="grid">Grid</gmd:MD_SpatialRepresentationTypeCode>
+									</gmi:spatialRepresentationType>
+									<gmi:resultSpatialRepresentation>
+										<gmd:MD_Georectified>
+											<gmd:numberOfDimensions>
+												<gco:Integer>2</gco:Integer>
+											</gmd:numberOfDimensions>
+											<gmd:axisDimensionProperties>
+												<gmd:MD_Dimension>
+													<gmd:dimensionName>
+														<gmd:MD_DimensionNameTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_DimensionNameTypeCode" codeListValue="row">Row</gmd:MD_DimensionNameTypeCode>
+													</gmd:dimensionName>
+													<gmd:dimensionSize>
+														<gco:Integer>896</gco:Integer>
+													</gmd:dimensionSize>
+													<gmd:resolution>
+														<gco:Length uom="http://eden.ign.fr/catalogue/cargene/20050620/uom/uom.xml#sec">0.669642840</gco:Length>
+													</gmd:resolution>
+												</gmd:MD_Dimension>
+											</gmd:axisDimensionProperties>
+											<gmd:axisDimensionProperties>
+												<gmd:MD_Dimension>
+													<gmd:dimensionName>
+														<gmd:MD_DimensionNameTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_DimensionNameTypeCode" codeListValue="column">Column</gmd:MD_DimensionNameTypeCode>
+													</gmd:dimensionName>
+													<gmd:dimensionSize>
+														<gco:Integer>832</gco:Integer>
+													</gmd:dimensionSize>
+													<gmd:resolution>
+														<gco:Length uom="http://eden.ign.fr/catalogue/cargene/20050620/uom/uom.xml#sec">0.721153800</gco:Length>
+													</gmd:resolution>
+												</gmd:MD_Dimension>
+											</gmd:axisDimensionProperties>
+											<gmd:cellGeometry>
+												<gmd:MD_CellGeometryCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_CellGeometryCode" codeListValue="area">Area</gmd:MD_CellGeometryCode>
+											</gmd:cellGeometry>
+											<gmd:transformationParameterAvailability>
+												<gco:Boolean>true</gco:Boolean>
+											</gmd:transformationParameterAvailability>
+											<gmd:checkPointAvailability>
+												<gco:Boolean>false</gco:Boolean>
+											</gmd:checkPointAvailability>
+											<gmd:cornerPoints>
+												<gml:Point srsName="http://eden.ign.fr/catalogue/cargene/20050620/crs/crs.xml#WGS84G" gml:id="point0CoucheidQX0x2x608">
+													<gml:pos>18.500000000 21.833333333</gml:pos>
+												</gml:Point>
+											</gmd:cornerPoints>
+											<gmd:cornerPoints>
+												<gml:Point srsName="http://eden.ign.fr/catalogue/cargene/20050620/crs/crs.xml#WGS84G" gml:id="point1CoucheidQRepMatricielx2x607">
+													<gml:pos>18.66646634 21.66685268</gml:pos>
+												</gml:Point>
+											</gmd:cornerPoints>
+											<gmd:pointInPixel>
+												<gmd:MD_PixelOrientationCode>center</gmd:MD_PixelOrientationCode>
+											</gmd:pointInPixel>
+										</gmd:MD_Georectified>
+									</gmi:resultSpatialRepresentation>
+									<gmi:resultContentDescription>
+										<gmi:MI_CoverageDescription>
+											<gmd:attributeDescription>
+												<gco:RecordType xlink:href="urn:dgiwg:xmlns:dmf:1.0:iso-g1:egco:Record">
+								Record
+								</gco:RecordType>
+											</gmd:attributeDescription>
+											<gmd:contentType>
+												<gmd:MD_CoverageContentTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_CoverageContentTypeCode" codeListValue="image">Image</gmd:MD_CoverageContentTypeCode>
+											</gmd:contentType>
+											<gmd:dimension>
+												<gmd:MD_Band>
+													<gmd:sequenceIdentifier>
+														<gco:MemberName>
+															<gco:aName>
+																<gco:CharacterString>measure</gco:CharacterString>
+															</gco:aName>
+															<gco:attributeType>
+																<gco:TypeName>
+																	<gco:aName>
+																		<gco:CharacterString>integer</gco:CharacterString>
+																	</gco:aName>
+																</gco:TypeName>
+															</gco:attributeType>
+														</gco:MemberName>
+													</gmd:sequenceIdentifier>
+													<gmd:descriptor>
+														<gco:CharacterString>index canal</gco:CharacterString>
+													</gmd:descriptor>
+													<gmd:maxValue>
+														<gco:Real>21</gco:Real>
+													</gmd:maxValue>
+													<gmd:minValue>
+														<gco:Real>11</gco:Real>
+													</gmd:minValue>
+													<gmd:bitsPerValue>
+														<gco:Integer>8</gco:Integer>
+													</gmd:bitsPerValue>
+												</gmd:MD_Band>
+											</gmd:dimension>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#0</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for over 300 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité supérieure à 300 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">60</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#1</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for 201 to 300 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité de 201 à 300 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">53</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#2</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for 151 to 200 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité de 151 à 200 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">52</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#3</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for 126 to 150 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité de 126 à 150 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">51</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#4</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for 101 to 125 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité de 101 à 125 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">59</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#5</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for 76 to 100 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité de 76 à 100 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">50</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#6</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for 51 to 75 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité de 51 à 75 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">41</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#7</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for 41 to 50 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité de 41 à 50 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">40</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#8</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for 36 to 40 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité de 36 à 40 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">32</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#9</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for 31 to 35 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité de 31 à 35 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">31</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#10</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for 26 to 30 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité de 26 à 30 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">30</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#11</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for 21 to 25 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité de 21 à 25 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">23</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#12</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for 16 to 20 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité de 16 à 20 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">22</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#13</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for 11 to 15 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité de 11 à 15 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">21</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#14</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for 7 to 10 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité de 7 à 10 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">20</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#15</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for 4 to 6 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité de 4 à 6 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">11</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#16</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Color code for 0 to 3 meters quality data element</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Ce code couleur correspond aux pixels de classe de qualité de 0 à 3 mètres</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">10</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#252</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Non-evaluated measure (Cannot measure)</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Mesure non évaluée (on ne sait pas mesurer)</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">252</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#253</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Non-evaluated measure (Data hole)</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Mesure non évaluée (« trou » dans la donnée)</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">253</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#254</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>No data (padding)</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Pas de données (padding)</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">254</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#255</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>No data (out of delivered area)</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Pas de données (Hors livraison chantier)</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:integer">255</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+										</gmi:MI_CoverageDescription>
+									</gmi:resultContentDescription>
+									<gmi:resultFormat>
+										<gmd:MD_Format id="QCFMT1">
+											<gmd:name>
+												<gmx:Anchor xlink:href="urn:X-sgp:1.1:registre:Format:geoTiff">GEOTIFF</gmx:Anchor>
+											</gmd:name>
+											<gmd:version>
+												<gco:CharacterString>1.0</gco:CharacterString>
+											</gmd:version>
+											<gmd:specification>
+												<gco:CharacterString>GEOTIFF format specification, revision 1.0, specification version 1.8.2, last modified : 28 december 2000</gco:CharacterString>
+											</gmd:specification>
+										</gmd:MD_Format>
+									</gmi:resultFormat>
+									<gmi:resultFile>
+										<gmx:MX_DataFile>
+											<gmx:fileName>
+												<gmx:FileName src="_QUALITY/E018N21-3040_JAJ2MBAND_ORTH4_001_QUA.zip/E018N21-3040_JAJ2MBAND_ORTH4_001_MGO.tif">_QUALITY/E018N21-3040_JAJ2MBAND_ORTH4_001_QUA.zip/E018N21-3040_JAJ2MBAND_ORTH4_001_MGO.tif</gmx:FileName>
+											</gmx:fileName>
+											<gmx:fileDescription>
+												<gco:CharacterString>qualifying file</gco:CharacterString>
+											</gmx:fileDescription>
+											<gmx:fileType>
+												<gmx:MimeFileType type=""></gmx:MimeFileType>
+											</gmx:fileType>
+											<gmx:fileFormat xlink:href="#QCFMT1"/>
+										</gmx:MX_DataFile>
+									</gmi:resultFile>
+								</gmi:QE_CoverageResult>
+							</gmd:result>
+						</gmi:QE_Usability>
+					</gmd:report>
+				</gmd:DQ_DataQuality>
+			</gmd:dataQualityInfo>
+			<gmd:dataQualityInfo>
+				<gmd:DQ_DataQuality>
+					<gmd:scope>
+						<gmd:DQ_Scope>
+							<gmd:level>
+								<gmx:MX_ScopeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MX_ScopeCode" codeListValue="dataset">Dataset</gmx:MX_ScopeCode>
+							</gmd:level>
+						</gmd:DQ_Scope>
+					</gmd:scope>
+					<gmd:report>
+						<gmi:QE_Usability>
+							<gmd:nameOfMeasure xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>Absolute precision mask</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Masque de précision planimétrique absolue</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:nameOfMeasure>
+							<gmd:measureIdentification>
+								<gmd:RS_Identifier>
+									<gmd:code>
+										<gco:CharacterString>MGOP</gco:CharacterString>
+									</gmd:code>
+									<gmd:codeSpace>
+										<gco:CharacterString>CARGENE_v10</gco:CharacterString>
+									</gmd:codeSpace>
+								</gmd:RS_Identifier>
+							</gmd:measureIdentification>
+							<gmd:measureDescription xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>This layer represents the planimetric absolute quality</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Ce masque représente la précision planimétrique absolue</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:measureDescription>
+							<gmd:result>
+								<gmi:QE_CoverageResult>
+									<gmi:spatialRepresentationType>
+										<gmd:MD_SpatialRepresentationTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_SpatialRepresentationTypeCode" codeListValue="grid">Grid</gmd:MD_SpatialRepresentationTypeCode>
+									</gmi:spatialRepresentationType>
+									<gmi:resultSpatialRepresentation>
+										<gmd:MD_Georectified>
+											<gmd:numberOfDimensions>
+												<gco:Integer>2</gco:Integer>
+											</gmd:numberOfDimensions>
+											<gmd:axisDimensionProperties>
+												<gmd:MD_Dimension>
+													<gmd:dimensionName>
+														<gmd:MD_DimensionNameTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_DimensionNameTypeCode" codeListValue="row">Row</gmd:MD_DimensionNameTypeCode>
+													</gmd:dimensionName>
+													<gmd:dimensionSize>
+														<gco:Integer>896</gco:Integer>
+													</gmd:dimensionSize>
+													<gmd:resolution>
+														<gco:Length uom="http://eden.ign.fr/catalogue/cargene/20050620/uom/uom.xml#sec">0.669642840</gco:Length>
+													</gmd:resolution>
+												</gmd:MD_Dimension>
+											</gmd:axisDimensionProperties>
+											<gmd:axisDimensionProperties>
+												<gmd:MD_Dimension>
+													<gmd:dimensionName>
+														<gmd:MD_DimensionNameTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_DimensionNameTypeCode" codeListValue="column">Column</gmd:MD_DimensionNameTypeCode>
+													</gmd:dimensionName>
+													<gmd:dimensionSize>
+														<gco:Integer>832</gco:Integer>
+													</gmd:dimensionSize>
+													<gmd:resolution>
+														<gco:Length uom="http://eden.ign.fr/catalogue/cargene/20050620/uom/uom.xml#sec">0.721153800</gco:Length>
+													</gmd:resolution>
+												</gmd:MD_Dimension>
+											</gmd:axisDimensionProperties>
+											<gmd:cellGeometry>
+												<gmd:MD_CellGeometryCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_CellGeometryCode" codeListValue="area">Area</gmd:MD_CellGeometryCode>
+											</gmd:cellGeometry>
+											<gmd:transformationParameterAvailability>
+												<gco:Boolean>true</gco:Boolean>
+											</gmd:transformationParameterAvailability>
+											<gmd:checkPointAvailability>
+												<gco:Boolean>false</gco:Boolean>
+											</gmd:checkPointAvailability>
+											<gmd:cornerPoints>
+												<gml:Point srsName="http://eden.ign.fr/catalogue/cargene/20050620/crs/crs.xml#WGS84G" gml:id="point0CoucheidQX0x2x816">
+													<gml:pos>18.500000000 21.833333333</gml:pos>
+												</gml:Point>
+											</gmd:cornerPoints>
+											<gmd:cornerPoints>
+												<gml:Point srsName="http://eden.ign.fr/catalogue/cargene/20050620/crs/crs.xml#WGS84G" gml:id="point1CoucheidQRepMatricielx2x815">
+													<gml:pos>18.66646634 21.66685268</gml:pos>
+												</gml:Point>
+											</gmd:cornerPoints>
+											<gmd:pointInPixel>
+												<gmd:MD_PixelOrientationCode>center</gmd:MD_PixelOrientationCode>
+											</gmd:pointInPixel>
+										</gmd:MD_Georectified>
+									</gmi:resultSpatialRepresentation>
+									<gmi:resultContentDescription>
+										<gmi:MI_CoverageDescription>
+											<gmd:attributeDescription>
+												<gco:RecordType xlink:href="urn:dgiwg:xmlns:dmf:1.0:iso-g1:egco:Record">
+								Record
+								</gco:RecordType>
+											</gmd:attributeDescription>
+											<gmd:contentType>
+												<gmd:MD_CoverageContentTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_CoverageContentTypeCode" codeListValue="image">Image</gmd:MD_CoverageContentTypeCode>
+											</gmd:contentType>
+											<gmd:dimension>
+												<gmd:MD_Band>
+													<gmd:sequenceIdentifier>
+														<gco:MemberName>
+															<gco:aName>
+																<gco:CharacterString>measure</gco:CharacterString>
+															</gco:aName>
+															<gco:attributeType>
+																<gco:TypeName>
+																	<gco:aName>
+																		<gco:CharacterString>real</gco:CharacterString>
+																	</gco:aName>
+																</gco:TypeName>
+															</gco:attributeType>
+														</gco:MemberName>
+													</gmd:sequenceIdentifier>
+													<gmd:descriptor>
+														<gco:CharacterString>value canal</gco:CharacterString>
+													</gmd:descriptor>
+													<gmd:maxValue>
+														<gco:Real>6.627</gco:Real>
+													</gmd:maxValue>
+													<gmd:minValue>
+														<gco:Real>3.495</gco:Real>
+													</gmd:minValue>
+													<gmd:bitsPerValue>
+														<gco:Integer>32</gco:Integer>
+													</gmd:bitsPerValue>
+												</gmd:MD_Band>
+											</gmd:dimension>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#-1</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Non-evaluated measure (Cannot measure)</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Mesure non évaluée (on ne sait pas mesurer)</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:double">-1</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#-2</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>Non-evaluated measure (Data hole)</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Mesure non évaluée (« trou » dans la donnée)</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:double">-2</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#-3</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>No data (padding)</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Pas de données (padding)</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:double">-3</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+											<gmi:rangeElementDescription>
+												<gmi:MI_RangeElementDescription>
+													<gmi:name>
+														<gco:CharacterString>CLASS_PCCN#-4</gco:CharacterString>
+													</gmi:name>
+													<gmi:definition xsi:type="gmd:PT_FreeText_PropertyType">
+														<gco:CharacterString>No data (out of delivered area)</gco:CharacterString>
+														<gmd:PT_FreeText>
+															<gmd:textGroup>
+																<gmd:LocalisedCharacterString locale="#locale-fra">Pas de données (Hors livraison chantier)</gmd:LocalisedCharacterString>
+															</gmd:textGroup>
+														</gmd:PT_FreeText>
+													</gmi:definition>
+													<gmi:rangeElement>
+														<gco:Record xsi:type="xs:double">-4</gco:Record>
+													</gmi:rangeElement>
+												</gmi:MI_RangeElementDescription>
+											</gmi:rangeElementDescription>
+										</gmi:MI_CoverageDescription>
+									</gmi:resultContentDescription>
+									<gmi:resultFormat>
+										<gmd:MD_Format id="QCFMT2">
+											<gmd:name>
+												<gmx:Anchor xlink:href="urn:X-sgp:1.1:registre:Format:geoTiff">GEOTIFF</gmx:Anchor>
+											</gmd:name>
+											<gmd:version>
+												<gco:CharacterString>1.0</gco:CharacterString>
+											</gmd:version>
+											<gmd:specification>
+												<gco:CharacterString>GEOTIFF format specification, revision 1.0, specification version 1.8.2, last modified : 28 december 2000</gco:CharacterString>
+											</gmd:specification>
+										</gmd:MD_Format>
+									</gmi:resultFormat>
+									<gmi:resultFile>
+										<gmx:MX_DataFile>
+											<gmx:fileName>
+												<gmx:FileName src="_QUALITY/E018N21-3040_JAJ2MBAND_ORTH4_001_QUA.zip/E018N21-3040_JAJ2MBAND_ORTH4_001_MGOP.tif">_QUALITY/E018N21-3040_JAJ2MBAND_ORTH4_001_QUA.zip/E018N21-3040_JAJ2MBAND_ORTH4_001_MGOP.tif</gmx:FileName>
+											</gmx:fileName>
+											<gmx:fileDescription>
+												<gco:CharacterString>qualifying file</gco:CharacterString>
+											</gmx:fileDescription>
+											<gmx:fileType>
+												<gmx:MimeFileType type=""></gmx:MimeFileType>
+											</gmx:fileType>
+											<gmx:fileFormat xlink:href="#QCFMT2"/>
+										</gmx:MX_DataFile>
+									</gmi:resultFile>
+								</gmi:QE_CoverageResult>
+							</gmd:result>
+						</gmi:QE_Usability>
+					</gmd:report>
+				</gmd:DQ_DataQuality>
+			</gmd:dataQualityInfo>
+			<gmd:dataQualityInfo>
+				<gmd:DQ_DataQuality>
+					<gmd:scope>
+						<gmd:DQ_Scope>
+							<gmd:level>
+								<gmx:MX_ScopeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MX_ScopeCode" codeListValue="dataset">Dataset</gmx:MX_ScopeCode>
+							</gmd:level>
+						</gmd:DQ_Scope>
+					</gmd:scope>
+					<gmd:lineage>
+						<gmd:LI_Lineage>
+							<gmd:statement xsi:type="gmd:PT_FreeText_PropertyType">
+								<gco:CharacterString>PLEIADES 1B high resolution image</gco:CharacterString>
+								<gmd:PT_FreeText>
+									<gmd:textGroup>
+										<gmd:LocalisedCharacterString locale="#locale-fra">Image PLEIADES 1B haute résolution</gmd:LocalisedCharacterString>
+									</gmd:textGroup>
+								</gmd:PT_FreeText>
+							</gmd:statement>
+							<gmd:processStep>
+								<gmi:LE_ProcessStep>
+									<gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+										<gco:CharacterString>Orthorectification, radiometric equalization, mosaicking</gco:CharacterString>
+										<gmd:PT_FreeText>
+											<gmd:textGroup>
+												<gmd:LocalisedCharacterString locale="#locale-fra">Orthorectification, égalisation radiométrique, mosaïquage</gmd:LocalisedCharacterString>
+											</gmd:textGroup>
+										</gmd:PT_FreeText>
+									</gmd:description>
+									<gmd:dateTime>
+										<gco:DateTime>2015-06-03T08:36:10.977166</gco:DateTime>
+									</gmd:dateTime>
+									<gmd:processor>
+										<gmd:CI_ResponsibleParty>
+											<gmd:organisationName>
+												<gco:CharacterString>IGN Espace</gco:CharacterString>
+											</gmd:organisationName>
+											<gmd:role>
+												<gmd:CI_RoleCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#CI_RoleCode" codeListValue="author">Author</gmd:CI_RoleCode>
+											</gmd:role>
+										</gmd:CI_ResponsibleParty>
+									</gmd:processor>
+									<gmd:source xlink:href="#sourceS001"/>
+									<gmd:source xlink:href="#sourceS002"/>
+									<gmd:source xlink:href="#sourceS003"/>
+								</gmi:LE_ProcessStep>
+							</gmd:processStep>
+							<gmd:source>
+								<gmi:LE_Source id="sourceS003">
+									<gmd:sourceCitation>
+										<gmd:CI_Citation>
+											<gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+												<gco:CharacterString>Pansharpened PLEIADES 1B satellite image</gco:CharacterString>
+												<gmd:PT_FreeText>
+													<gmd:textGroup>
+														<gmd:LocalisedCharacterString locale="#locale-fra">Image satellite PLEIADES 1B multispectrale</gmd:LocalisedCharacterString>
+													</gmd:textGroup>
+												</gmd:PT_FreeText>
+											</gmd:title>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:DateTime>2014-10-12T09:28:11.4490000Z</gco:DateTime>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+											<gmd:edition>
+												<gco:CharacterString>1</gco:CharacterString>
+											</gmd:edition>
+											<gmd:editionDate>
+												<gco:DateTime>2014-10-12T09:28:11.4490000Z</gco:DateTime>
+											</gmd:editionDate>
+											<gmd:identifier>
+												<gmd:MD_Identifier>
+													<gmd:code>
+														<gco:CharacterString>DS_PHR1B_201410120927364_FR1_PX_E018N21_0717_03370</gco:CharacterString>
+													</gmd:code>
+												</gmd:MD_Identifier>
+											</gmd:identifier>
+											<gmd:series>
+												<gmd:CI_Series>
+													<gmd:name>
+														<gco:CharacterString>sseries_AD</gco:CharacterString>
+													</gmd:name>
+												</gmd:CI_Series>
+											</gmd:series>
+										</gmd:CI_Citation>
+									</gmd:sourceCitation>
+									<gmd:sourceExtent>
+										<gmd:EX_Extent>
+											<gmd:description>
+												<gco:CharacterString> Bounding Polygon</gco:CharacterString>
+											</gmd:description>
+											<gmd:geographicElement>
+												<gmd:EX_BoundingPolygon>
+													<gmd:polygon>
+														<gml:Surface gml:id="surfaceidSEXTGEOx2x233">
+															<gml:patches>
+																<gml:PolygonPatch>
+																	<gml:exterior>
+																		<gml:Ring>
+																			<gml:curveMember>
+																				<gml:Curve gml:id="curveidPolygonex2x234">
+																					<gml:segments>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.632039 21.833317</gml:pos>
+																							<gml:pos>18.632044 21.833317</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.632044 21.833317</gml:pos>
+																							<gml:pos>18.632044 21.833280</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.632044 21.833280</gml:pos>
+																							<gml:pos>18.632049 21.833280</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.632049 21.833280</gml:pos>
+																							<gml:pos>18.632049 21.833275</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.632049 21.833275</gml:pos>
+																							<gml:pos>18.500128 21.827834</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500128 21.827834</gml:pos>
+																							<gml:pos>18.500128 21.827825</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500128 21.827825</gml:pos>
+																							<gml:pos>18.500133 21.827825</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500133 21.827825</gml:pos>
+																							<gml:pos>18.500133 21.827797</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500133 21.827797</gml:pos>
+																							<gml:pos>18.500138 21.827797</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500138 21.827797</gml:pos>
+																							<gml:pos>18.500138 21.827788</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500138 21.827788</gml:pos>
+																							<gml:pos>18.500148 21.827788</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500148 21.827788</gml:pos>
+																							<gml:pos>18.500148 21.827783</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500148 21.827783</gml:pos>
+																							<gml:pos>18.500173 21.827783</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500173 21.827783</gml:pos>
+																							<gml:pos>18.500173 21.827779</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500173 21.827779</gml:pos>
+																							<gml:pos>18.500183 21.827779</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500183 21.827779</gml:pos>
+																							<gml:pos>18.500183 21.827755</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500183 21.827755</gml:pos>
+																							<gml:pos>18.500188 21.827755</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500188 21.827755</gml:pos>
+																							<gml:pos>18.500188 21.827723</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500188 21.827723</gml:pos>
+																							<gml:pos>18.500183 21.827723</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500183 21.827723</gml:pos>
+																							<gml:pos>18.500183 21.827695</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500183 21.827695</gml:pos>
+																							<gml:pos>18.500178 21.827695</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500178 21.827695</gml:pos>
+																							<gml:pos>18.500178 21.827686</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500178 21.827686</gml:pos>
+																							<gml:pos>18.500173 21.827686</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500173 21.827686</gml:pos>
+																							<gml:pos>18.500173 21.827676</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500173 21.827676</gml:pos>
+																							<gml:pos>18.500158 21.827676</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500158 21.827676</gml:pos>
+																							<gml:pos>18.500158 21.827667</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500158 21.827667</gml:pos>
+																							<gml:pos>18.500138 21.827667</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500138 21.827667</gml:pos>
+																							<gml:pos>18.500138 21.827662</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500138 21.827662</gml:pos>
+																							<gml:pos>18.500108 21.827662</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500108 21.827662</gml:pos>
+																							<gml:pos>18.500108 21.827658</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500108 21.827658</gml:pos>
+																							<gml:pos>18.500098 21.827658</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500098 21.827658</gml:pos>
+																							<gml:pos>18.500098 21.827672</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500098 21.827672</gml:pos>
+																							<gml:pos>18.500083 21.827672</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500083 21.827672</gml:pos>
+																							<gml:pos>18.500083 21.827667</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500083 21.827667</gml:pos>
+																							<gml:pos>18.500068 21.827667</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500068 21.827667</gml:pos>
+																							<gml:pos>18.500068 21.827662</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500068 21.827662</gml:pos>
+																							<gml:pos>18.500063 21.827662</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500063 21.827662</gml:pos>
+																							<gml:pos>18.500063 21.827658</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500063 21.827658</gml:pos>
+																							<gml:pos>18.500023 21.827658</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500023 21.827658</gml:pos>
+																							<gml:pos>18.500023 21.827653</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500023 21.827653</gml:pos>
+																							<gml:pos>18.500018 21.827653</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500018 21.827653</gml:pos>
+																							<gml:pos>18.500018 21.827648</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500018 21.827648</gml:pos>
+																							<gml:pos>18.500013 21.827648</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500013 21.827648</gml:pos>
+																							<gml:pos>18.500013 21.827639</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500013 21.827639</gml:pos>
+																							<gml:pos>18.500008 21.827639</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500008 21.827639</gml:pos>
+																							<gml:pos>18.500008 21.827634</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500008 21.827634</gml:pos>
+																							<gml:pos>18.500000 21.827634</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500000 21.827634</gml:pos>
+																							<gml:pos>18.500000 21.833333</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.500000 21.833333</gml:pos>
+																							<gml:pos>18.591033 21.833333</gml:pos>
+																						</gml:LineStringSegment>
+																						<gml:LineStringSegment>
+																							<gml:pos>18.591033 21.833333</gml:pos>
+																							<gml:pos>18.632039 21.833317</gml:pos>
+																						</gml:LineStringSegment>
+																					</gml:segments>
+																				</gml:Curve>
+																			</gml:curveMember>
+																		</gml:Ring>
+																	</gml:exterior>
+																</gml:PolygonPatch>
+															</gml:patches>
+														</gml:Surface>
+													</gmd:polygon>
+												</gmd:EX_BoundingPolygon>
+											</gmd:geographicElement>
+										</gmd:EX_Extent>
+									</gmd:sourceExtent>
+									<gmi:resolution>
+										<gmi:LE_NominalResolution>
+											<gmi:groundResolution>
+												<gco:Distance uom="http://eden.ign.fr/catalogue/cargene/20050620/uom/uom.xml#m">0.5</gco:Distance>
+											</gmi:groundResolution>
+										</gmi:LE_NominalResolution>
+									</gmi:resolution>
+								</gmi:LE_Source>
+							</gmd:source>
+						</gmd:LI_Lineage>
+					</gmd:lineage>
+				</gmd:DQ_DataQuality>
+			</gmd:dataQualityInfo>
+			<gmd:metadataConstraints>
+				<gmd:MD_SecurityConstraints>
+					<gmd:useLimitation>
+						<gco:CharacterString></gco:CharacterString>
+					</gmd:useLimitation>
+					<gmd:classification>
+						<gmd:MD_ClassificationCode codeList="urn:dgiwg:metadata:dmf:1.0:codelist#MD_ClassificationCode" codeListValue="unclassified">Unclassified</gmd:MD_ClassificationCode>
+					</gmd:classification>
+					<gmd:userNote>
+						<gco:CharacterString></gco:CharacterString>
+					</gmd:userNote>
+					<gmd:classificationSystem>
+						<gco:CharacterString></gco:CharacterString>
+					</gmd:classificationSystem>
+					<gmd:handlingDescription>
+						<gco:CharacterString></gco:CharacterString>
+					</gmd:handlingDescription>
+				</gmd:MD_SecurityConstraints>
+			</gmd:metadataConstraints>
+		</gmd:MD_Metadata>
