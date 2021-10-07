@@ -1,7 +1,12 @@
-## Installation
-	pip install -r requirements.txt
+# Quadorender
+Le script `quadorender.py` permet de restituer la qualité d'une donnée géographique d'après un fichier XML produit selon la norme ISO-19157
+
+![](files/thumbnail.png)
 
 ## Script
+### Installation
+	pip install -r requirements.txt
+
 ### Script python
 - [quadorender.py](quadorender.py) : script de rendu
 
