@@ -6,11 +6,15 @@
 - [quadorender.py](quadorender.py) : script de rendu
 
 ### XML
+Le XML a été produit selon plusieurs versions, selon le niveau d'avancement, et les fichiers réceptionnés
+
 - [report-FR.xml](scripts/fr/report-FR.xml) : rapport XML inspiré du Répertoire Français des Méta-données
 - [report-19157.xml](scripts/quadogeo-19157/report-19157.xml) : rapport XML inspiré de la norme ISO 19157
 - [fake-dng2.0-iso.xml](scripts/iso-19157/fake-dng2.0-iso.xml) : rapport XML de la norme ISO 19157
 
 ### Versions
+Les scripts s'appuient sur différentes versions de XML
+
 - [FR (Quadogeo) (première version)](scripts/fr)
 - [Inspiré de ISO-19157 (seconde version)](scripts/quadogeo-19157)
 - [ISO-19157 (troisième version)](scripts/iso-19157)
