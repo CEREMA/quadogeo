@@ -3,14 +3,14 @@ import xml.etree.ElementTree as ET
 import re
 #~ import plotly.express as px
 #~ import pandas as pd
-#~ import sys
+import sys
 
 #----------------------------------
 # Script name
 #----------------------------------
-# ~ args = sys.argv
-# ~ xml_report = [elt for elt in args if '.xml' in elt]
-xml_report = ['xml-19157/fake-dng2.0-iso.xml']
+args = sys.argv
+xml_report = [elt for elt in args if '.xml' in elt]
+#~ xml_report = ['xml-19157/fake-dng2.0-iso.xml']
 if(len(xml_report) == 0):
 	print("Pas de rapport XML trouvé")
 	quit
@@ -31,28 +31,53 @@ def getTag(s):
 
 def getInfo(node) :
 	metricId = node.tag # '{http://www.isotc211.org/2005/gmd}DQ_AbsoluteExternalPositionalAccuracy'
-	descriptionEng = node.find('{http://www.isotc211.org/2005/gmd}nameOfMeasure').find('{http://www.isotc211.org/2005/gco}CharacterString').text
-	descriptionFr = node.find('{http://www.isotc211.org/2005/gmd}nameOfMeasure').find('{http://www.isotc211.org/2005/gmd}PT_FreeText').find('{http://www.isotc211.org/2005/gmd}textGroup').find('{http://www.isotc211.org/2005/gmd}LocalisedCharacterString').text
+	descriptionEng = node.find('{http://www.isotc211.org/2005/gmd}nameOfMeasure') \
+	.find('{http://www.isotc211.org/2005/gco}CharacterString').text
+	
+	descriptionFr = node.find('{http://www.isotc211.org/2005/gmd}nameOfMeasure') \
+	.find('{http://www.isotc211.org/2005/gmd}PT_FreeText') \
+	.find('{http://www.isotc211.org/2005/gmd}textGroup') \
+	.find('{http://www.isotc211.org/2005/gmd}LocalisedCharacterString').text
 	#~ value = node.find('{http://www.isotc211.org/2005/gmd}result').find('{http://www.isotc211.org/2005/gmd}DQ_QuantitativeResult').find('{http://www.isotc211.org/2005/gmd}value').find('{http://www.isotc211.org/2005/gco}Record').text
+	
 	resNode = node.find('{http://www.isotc211.org/2005/gmd}result')[0]
+	
+	# DQ_QuantitativeResult
 	if resNode.tag == '{http://www.isotc211.org/2005/gmd}DQ_QuantitativeResult':
-		value = resNode.find('{http://www.isotc211.org/2005/gmd}value').find('{http://www.isotc211.org/2005/gco}Record').text
-	elif resNode.tag == '{http://www.isotc211.org/2005/gmd}DQ_QualitativeResult':
-		value = resNode.find('{http://www.isotc211.org/2005/gmd}value').find('{http://www.isotc211.org/2005/gco}Record').text
+		value = resNode \
+		.find('{http://www.isotc211.org/2005/gmd}value') \
+		.find('{http://www.isotc211.org/2005/gco}Record').text
+	# DQ_DescriptiveResult
+	elif resNode.tag == '{http://www.isotc211.org/2005/gmd}DQ_DescriptiveResult':
+		value = resNode \
+		.find('{http://www.isotc211.org/2005/gmd}value') \
+		.find('{http://www.isotc211.org/2005/gco}Record').text
+	# DQ_ConformanceResult
 	elif resNode.tag == '{http://www.isotc211.org/2005/gmd}DQ_ConformanceResult':
 		value = 'NC'
+	# QE_CoverageResult
+	#~ gmi:QE_CoverageResult : <gco:CharacterString>Discontinuity nature over the line</gco:CharacterString>
 	elif resNode.tag == '{http://www.isotc211.org/2005/gmi}QE_CoverageResult':
-		value = resNode.find('{http://www.isotc211.org/2005/gmi}resultContentDescription').find('{http://www.isotc211.org/2005/gmi}MI_CoverageDescription').find('{http://www.isotc211.org/2005/gmd}dimension').find('{http://www.isotc211.org/2005/gmd}MD_Band').find('{http://www.isotc211.org/2005/gmd}descriptor').find('{http://www.isotc211.org/2005/gco}CharacterString').text
+		value = resNode \
+		.find('{http://www.isotc211.org/2005/gmi}resultContentDescription') \
+		.find('{http://www.isotc211.org/2005/gmi}MI_CoverageDescription') \
+		.find('{http://www.isotc211.org/2005/gmd}dimension') \
+		.find('{http://www.isotc211.org/2005/gmd}MD_Band') \
+		.find('{http://www.isotc211.org/2005/gmd}descriptor') \
+		.find('{http://www.isotc211.org/2005/gco}CharacterString').text
 	else: # !! Traiter les autres cas
 		value = 'NC'
-		#~ gmi:QE_CoverageResult : <gco:CharacterString>Discontinuity nature over the line</gco:CharacterString>
-	return {'descriptionFr' : descriptionFr, 'metricId' : getTag(metricId), 'value' : value}
+	return {'descriptionFr' : descriptionFr,
+			'metricId' : getTag(metricId),
+			'value' : value}
 	
 def getHtml(d):
 	html = []
+	html.append('<div>')
 	html.append('<h2>%s (%s)</h2>'%(d['descriptionFr'], d['metricId']))
 	html.append('<br>')
 	html.append(d['value'])
+	html.append('</div>')
 	html.append('<br>')
 	return '\n'.join(html)
 		
@@ -126,10 +151,34 @@ border: 1px solid #e4e4e4;
 f.write("</head>")
 f.write("<body>")
 
+# Title
+infoNode = root.find('{http://www.isotc211.org/2005/gmd}identificationInfo')
+
+citationNode = infoNode \
+.find('{http://www.isotc211.org/2005/gmd}MD_DataIdentification') \
+.find('{http://www.isotc211.org/2005/gmd}citation') \
+.find('{http://www.isotc211.org/2005/gmd}CI_Citation') \
+
+title = citationNode.find('{http://www.isotc211.org/2005/gmd}title') \
+.find('{http://www.isotc211.org/2005/gco}CharacterString').text
+
+description = citationNode.find('{http://www.isotc211.org/2005/gmd}alternateTitle')  \
+.find('{http://www.isotc211.org/2005/gco}CharacterString').text
+
+date = citationNode.find('{http://www.isotc211.org/2005/gmd}date').find('{http://www.isotc211.org/2005/gmd}CI_Date').find('{http://www.isotc211.org/2005/gmd}date').find('{http://www.isotc211.org/2005/gco}Date').text
+
+f.write('<h1>%s</h1>'%title)
+f.write('<div>')
+f.write('Date : ' + date)
+f.write('<br>')
+f.write(description)
+f.write('</div>')
+
 for dqNode in dqNodes:
 	metricNodes = [elt[0] for elt in dqNode[0] if elt.tag == '{http://www.isotc211.org/2005/gmd}report']
 	for node in metricNodes:
 		d = getInfo(node)
+		print(d)
 		html = getHtml(d)
 		f.write(html)
 		

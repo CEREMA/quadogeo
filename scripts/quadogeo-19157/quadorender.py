@@ -7,15 +7,15 @@ import sys
 #----------------------------------
 # Script name
 #----------------------------------
-# ~ args = sys.argv
-# ~ xml_report = [elt for elt in args if '.xml' in elt]
-xml_report = ['report-19157.xml']
+args = sys.argv
+xml_report = [elt for elt in args if '.xml' in elt]
+#~ xml_report = ['report-quadogeo19157.xml']
 if(len(xml_report) == 0):
 	print("Pas de rapport XML trouvé")
 	quit
 else:
 	xml_report = xml_report[0]
-# ~ print(xml_report)
+	print(xml_report)
 	
 #----------------------------------
 # Parse XML

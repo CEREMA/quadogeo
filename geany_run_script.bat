@@ -1,4 +1,4 @@
-c:\Python36-64\python -i quadorender-19157.py%
+c:\Python36-64\python -i quadorender.py%
 
 pause
 del "%0"
