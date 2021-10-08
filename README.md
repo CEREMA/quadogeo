@@ -1,7 +1,7 @@
 # Quadogeo
 Répertoire d'outils associé au groupe [QuaDoGeo du CNIG](http://cnig.gouv.fr/?page_id=18183)
 
-## Script Quadorender
+## Quadorender
 
 ![](files/thumbnail.png)
 
