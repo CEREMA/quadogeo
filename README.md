@@ -2,7 +2,10 @@
 Répertoire d'outils associé au groupe [QuaDoGeo du CNIG](http://cnig.gouv.fr/?page_id=18183)
 
 ## Quadorender
-[Quadorender](QUADORENDER.md)
+[Quadorender, preuve de concept d'une restitution automatisée de la qualité](QUADORENDER.md)
+
+## QGIS
+Méthodes de qualification de la donnée géographique sous QGIS, selon ISO-19157 (en cours)
 
 ## Présentations
 - [Quadorender sur un vrai XML ISO-191157 (Réunion du 7 Octobre 2021)](https://docs.google.com/presentation/d/1JLyhtKRqUqeOSJiULc1fYeCldKf3pZDN1cHfCfp-S5M/edit?usp=sharing)  
