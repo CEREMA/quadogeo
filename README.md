@@ -26,6 +26,7 @@ Les scripts s'appuient sur différentes versions de XML
 - [FR (Quadogeo) (première version)](quadorender/fr)
 - [Inspiré de ISO-19157 (seconde version)](quadorender/quadogeo-19157)
 - [ISO-19157 (troisième version)](quadorender/iso-19157)
+- [La remontée qualité utilisateurs](https://docs.google.com/presentation/d/1QCJtAPdPrcjRj9KQZuyjjTQt4q-ZrH4tGYIh3JNODAc/edit?usp=sharing)
 
 ### Exécuter le script
 Par exemple, pour le script [ISO-19157](quadorender/iso-19157)
