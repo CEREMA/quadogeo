@@ -1,3 +1,5 @@
+# Quadorender
+
 ![](files/thumbnail.png)
 
 Le script `quadorender.py` est une preuve de concept de restitution de la qualité d'une donnée géographique d'après un fichier XML produit selon la norme ISO-19157.
@@ -33,3 +35,8 @@ Par exemple, pour le script [ISO-19157](quadorender/iso-19157)
 
 ## Présentations
 [Présentations](https://gitlab.cerema.fr/mathieu.rajerison/quadogeo/-/blob/master/README.md#pr%C3%A9sentations)
+
+## TODO
+- Récupérer un corpus plus important de XML 19157 
+- Récupérer les fiches uri associées : PACC, etc...
+- Calcul de la note pour le radar en fonction des valeurs : à définir
