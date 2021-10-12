@@ -12,7 +12,11 @@ Voici le rendu généré depuis le fichier XML :
 
 Le script `quadorender.py` est une preuve de concept de restitution de la qualité d'une donnée géographique d'après un fichier XML produit selon la norme ISO-19157.
 
-## Installation
+## Installation des librairies
+Pré-requis : avoir installé Python
+
+Pour installer les librairies utilisées par l'outil :
+
 	pip install -r requirements.txt
 
 ## Script python
