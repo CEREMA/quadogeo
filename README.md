@@ -7,5 +7,5 @@ Répertoire d'outils associé au groupe [QuaDoGeo du CNIG](http://cnig.gouv.fr/?
 ## QGIS
 Méthodes de qualification de la donnée géographique sous QGIS, selon ISO-19157 (en cours)
 
-## Présentations
-- [Ressources et présentations](RESSOURCES.md)
+## Ressources et présentations
+[Ressources et présentations](RESSOURCES.md)
