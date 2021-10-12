@@ -1,4 +1,6 @@
-# Quadorender
+# Quadorender (POC)
+
+L'objectif de ce POC est de produire une restitution visuelle des indicateurs qualité associés à une donnée géographique, selon la norme ISO-19157
 
 ![](files/thumbnail.png)
 
