@@ -1,3 +1,5 @@
+🛑 Ce répertoire n'est plus mis à jour, merci d'aller sur le repo https://github.com/CEREMA/quadogeo
+
 # Quadogeo
 Répertoire d'outils associé au groupe [QuaDoGeo du CNIG](http://cnig.gouv.fr/?page_id=18183)
 
