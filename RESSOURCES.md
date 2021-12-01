@@ -1,9 +1,31 @@
 ## Fiches Quadogeo ISO-19157
 - [La norme ISO-19157, en français, et simplifiée, déclinée en fiches](https://www.cerema.fr/fr/actualites/serie-fiches-cerema-qualifier-donnees-geographiques)
 
-## Géocatalogue
+## Mesures
+### Norme ISO-19157
+[Norme ISO-19157 en XML](https://github.com/ISO-TC211/XML/tree/master/standards.iso.org.annotated/iso/19157)  
+
+Modèle :
+![](files/modele.jpg)
+
+### Géocatalogue
 [Catalogue des mesures de qualité QuaDoGeo
 ](https://data.geocatalogue.fr/ncl/_mesuresQuaDoGeo)
+
+### Caractéristiques de la mesure
+
+- Nom
+- Alias
+- Critère / sous-critère
+- Mesure de base
+- Définition
+- Description
+- Paramètre
+- Type de valeur
+- Structure de la valeur
+- Référence de la source
+- Exemple
+- Identifiant
 
 ## Quadorender
 - [Quadorender sur un vrai XML ISO-191157 (Réunion du 7 Octobre 2021)](https://docs.google.com/presentation/d/1JLyhtKRqUqeOSJiULc1fYeCldKf3pZDN1cHfCfp-S5M/edit?usp=sharing)  
