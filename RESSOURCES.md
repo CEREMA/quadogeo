@@ -12,7 +12,7 @@ Modèle :
 [Catalogue des mesures de qualité QuaDoGeo
 ](https://data.geocatalogue.fr/ncl/_mesuresQuaDoGeo)
 
-### Caractéristiques de la mesure
+#### Caractéristiques de chaque mesure
 
 - Nom
 - Alias
