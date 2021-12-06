@@ -36,6 +36,9 @@ Modèle :
 - [La remontée qualité utilisateurs (4 Juin 2020)](https://docs.google.com/presentation/d/1QCJtAPdPrcjRj9KQZuyjjTQt4q-ZrH4tGYIh3JNODAc/edit?usp=sharing)
 - [Qualité, usages et usagers, est-ce usant ? (21 Novembre 2019)](https://drive.google.com/file/d/1Lx3LKOPJJZOkxrm-kApcTmUiupYhQ5kD/view)
 
+## Expressions régulières
+https://github.com/datagistips/memos/blob/main/regexes.md
+
 ## Méthodes QGIS
 https://hfcqgis.opendatasicilia.it/gr_funzioni/gruppo_funzioni/  
 
