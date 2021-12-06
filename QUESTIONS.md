@@ -1,0 +1,4 @@
+- sommer les taux de conformité entre champs
+- micro surfaces = entités en trop
+- passer des taux aux étoiles
+- différence justesse et conformité au domaine de valeurs

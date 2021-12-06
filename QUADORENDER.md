@@ -1,12 +1,22 @@
 # Quadorender (POC)
 
-L'objectif de ce POC est de produire une restitution visuelle des indicateurs qualité associés à une donnée géographique, selon la norme ISO-19157
+L'objectif de ce POC est de produire une restitution visuelle des indicateurs qualité associés à une donnée géographique, selon la norme ISO-19157.  
+
+Il suppose un fichier XML comportant les indicateurs de qualité calculés.  
+
+La production de ces indicateurs sera notamment traitée dans la partie Outils, notamment [QGIS](https://github.com/CEREMA/quadogeo#qgis)
+
+Voici le rendu généré depuis le fichier XML :
 
 ![](files/thumbnail.png)
 
 Le script `quadorender.py` est une preuve de concept de restitution de la qualité d'une donnée géographique d'après un fichier XML produit selon la norme ISO-19157.
 
-## Installation
+## Installation des librairies
+Pré-requis : avoir installé Python
+
+Pour installer les librairies utilisées par l'outil :
+
 	pip install -r requirements.txt
 
 ## Script python
