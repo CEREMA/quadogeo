@@ -1,7 +1,17 @@
-- sommer les taux de conformité entre champs
-- micro surfaces = entités en trop
-- passer des taux aux étoiles
-- différence justesse et conformité au domaine de valeurs
+## Comment passer des taux aux étoiles
+N/C
+
+## Différence justesse et conformité au domaine de valeurs
+N/C
+
+## Précision relative ?
+N/C
+
+## Quelles données pour l'arrêté de 2003 à part PCRS ?
+N/C
+
+## Comment calculer incertitude et intervalles de confiances sur données temporelles ?
+Comment calculer incertitude sur temporel : conversion en minutes ?
 
 ## Taux ou nombre ?
 Une question de C. Hoareau sur l'utilisation du taux (relatif) plutôt que le nombre (absolu).
@@ -18,6 +28,8 @@ Aussi, il y a d'autres questions soulevées lors de la formation :
 Doit-on considérer les doublons au travers d'une mesure spécifique ? Taux de doublons ?
 
 ## Mesure de la cohérence de format globalement sur une couche
+> Comment combiner les taux de conformité entre champs ?
+
 Soit une couche avec deux colonnes typezone et datappro, avec 4 entités :
 - Soit les entités 1 et 2 qui sont non conformes par rapport à typezone
 - Soit les entités 3 et 4 non conformes sur le format par rapport à datappro. 
