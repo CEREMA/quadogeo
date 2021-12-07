@@ -3,7 +3,28 @@
 - passer des taux aux étoiles
 - différence justesse et conformité au domaine de valeurs
 
----
+## Taux ou nombre ?
+Une question de C. Hoareau sur l'utilisation du taux (relatif) plutôt que le nombre (absolu).
+Il semble que le taux soit à privilégier dans la plupart des cas. Dans quel cas utiliser un nombre d'éléments non conformes plutôt qu'un taux ? (Nombre d'auto-intersection, par exemple,...)
+
+## Taux de nombre, envisager le taux de surface ?
+Aussi, quand on parle de taux, dans certains cas, ne devrait-on pas considérer un taux de surface plutôt qu'un taux relatif à un dénombrement ? Par exemple, si je prends le critère d'exhaustivité, pour deux parcelles de grande taille, une en plus et une en moins, le taux relatif au nombre sera sous-estimé par rapport à l'impact carto mesuré par le taux de surface
+
+## Micro surface et excédent ?
+Aussi, il y a d'autres questions soulevées lors de la formation :
+- une micro-surface qui apparaît en plus du lot théorique d'entités est-elle un élément en excès ?
+
+## Doublons
+Doit-on considérer les doublons au travers d'une mesure spécifique ? Taux de doublons ?
+
+## Mesure de la cohérence de format globalement sur une couche
+Soit une couche avec deux colonnes typezone et datappro, avec 4 entités :
+- Soit les entités 1 et 2 qui sont non conformes par rapport à typezone
+- Soit les entités 3 et 4 non conformes sur le format par rapport à datappro. 
+
+On a un taux de conformité pour typezone de 50% et pour datappro de 50%, mais si on assemble les 4 entités, on repère une non conformités sur les 4 entités, soit 100 % du jeu de données.
+
+
 ## Remarque de Benoît Segala, le 6 Décembre, sur l'exhaustivité vs précision thématique, suite au webinaire exhaustivité et cohérence logique
 
 Bonsoir,
