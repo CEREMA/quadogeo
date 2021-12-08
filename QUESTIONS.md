@@ -78,3 +78,27 @@ un réseau de pistes cyclables en distinguant les mono-directionnelles et les bi
 ### Objets surfaciques,
 
 une base de données d’occupation du sol = cas n°2
+
+### centroïde de surface pour rond point ok mais pas pour le reste
+
+### à quoi correspond C ?
+C n'est pas une constante c'est le rapport entre la classe de précision attendue et la précision de la référence retenue et celui-ci doit être au minimum de 2 ou plus.
+dans le texte "C étant le coefficient de sécurité des mesures de contrôle", grosso modo les mesures de référence doivent être au moins 2 fois plus précises que les mesures diagnostiquées
+
+
+### précision relative
+Pour un exemple de mesures relatives, nous faisons à IGN Toulouse des contrôles inter chantier, nous avons donc des mesures d’écarts entre des points issus de différents lots de données en recouvrement. Cela nous permet de qualifier la position relative des chantiers entre eux.
+
+dans le texte "C étant le coefficient de sécurité des mesures de contrôle", grosso modo les mesures de référence doivent être au moins 2 fois plus précises que les mesures diagnostiquées
+
+### Souci écart en 3 dimensions
+corriger
+
+### coefficient k pour l'arrêté de précision 2003
+y'a des explications sur le fondement de l'arrêté dans XYZ n°108 et géométre 112
+
+toutes ces notions reposent les calculs statistiques
+
+Ce sera par rapport à ce qui est dans les spécifications des données et par rapport au mode de production utilisé ?
+
+ecart-type, courbe de gauss
