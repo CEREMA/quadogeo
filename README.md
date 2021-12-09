@@ -11,4 +11,4 @@ Méthodes de qualification de la donnée géographique sous QGIS, selon ISO-1915
 [Ressources et présentations](RESSOURCES.md)
 
 ## Fiches quadogeo
-https://github.com/CEREMA/quadogeo/tree/master/fiches/fiches-iso-19157
+[https://www.cerema.fr/fr/actualites/serie-fiches-cerema-qualifier-donnees-geographiques](https://www.cerema.fr/fr/actualites/serie-fiches-cerema-qualifier-donnees-geographiques)
