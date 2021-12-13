@@ -126,6 +126,8 @@ Pour la précision relative, il faut que je calcule les écarts entre toutes les
 
 > Nope pour moi, entre paires de points, donc entre points appariés, aka qui représentent la même position. L'idée est là simplement de débiaiser : on enlève à chaque delta de paires de points le delta moyen. Cf page 5 de https://doi.org/10.3390/ijgi10110761. Cf l'image classique https://wikiagile.cesi.fr/index.php?title=Juste_vs_Pr%C3%A9cis . On cherche par exemple à rendre compte que la donnée est bien dessinée (le dessin est juste) mais systématiquement 5m à l'est (son biais).
 
+![](https://wikiagile.cesi.fr/images/6/64/Accurate-vs-precise_fr.png)
+
 ### => Souci écart en 3 dimensions
 => Corriger la diapo
 
