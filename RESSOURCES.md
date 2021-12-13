@@ -48,3 +48,6 @@ https://github.com/datagistips/memos/blob/main/regexes.md
 https://hfcqgis.opendatasicilia.it/gr_funzioni/gruppo_funzioni/  
 
 http://www.geoinformations.developpement-durable.gouv.fr/fichier/pdf/verification_et_correction_de_geometrie_v3_0_cle5fcd75.pdf?arg=177834719&cle=830634f7888fc808498f0c41704664611af04021&file=pdf%2Fverification_et_correction_de_geometrie_v3_0_cle5fcd75.pdf
+
+## Statistiques
+Statistiques pour statophobes : https://perso.univ-rennes1.fr/denis.poinsot/Statistiques_%20pour_statophobes/STATISTIQUES%20POUR%20STATOPHOBES.pdf
