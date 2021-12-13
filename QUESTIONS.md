@@ -1,3 +1,15 @@
+## Le coefficient Kappa peut donc se calculer sur des quantités absolues ou relatives?
+
+Sur quantités absolues et nombre.
+
+Il est utile de préciser que ce coefficient kappa n'est pas toujours un indicateur approprié pour mesurer la justesse d'un classement : en effet, dans certaines situations, son comportement est imprévisible, celui-ci se montrant notamment plus adapté lorsque les classes sont relativement indépendantes les unes des autres (soit avec un risque limité de confusion entre les classes). Par ailleurs, cet indicateur réagit mal quand une (ou plusieurs) classe(s) est(sont) peu représentée(s) dans le lot de données.
+
+## Quand utilise-t-on Student ?
+Student pour petit échantillon
+
+## Nombre d'échantillons recommandé pour LAQ (Limite d'Acceptation de la Qualité)
+L'effectif donné pour la taille de population globale est un effectif minimum pour l'échantillon 
+
 ## => Thématique/nb de valeurs d'attributs incorrectes = logique/cohérence au domaine de valeurs
 N/C
 
