@@ -1,6 +1,11 @@
 ## Fiches Quadogeo ISO-19157
 - [La norme ISO-19157, en français, et simplifiée, déclinée en fiches](https://www.cerema.fr/fr/actualites/serie-fiches-cerema-qualifier-donnees-geographiques)
 
+## Toronto Data Quality Score
+- https://medium.com/open-data-toronto/towards-a-data-quality-score-in-open-data-part-1-525e59f729e9
+- https://medium.com/open-data-toronto/towards-a-data-quality-score-in-open-data-part-2-3f193eb9e21d
+- https://open.toronto.ca/dataset/catalogue-quality-scores/
+
 ## Mesures
 ### Norme ISO-19157
 [Norme ISO-19157 en XML](https://github.com/ISO-TC211/XML/tree/master/standards.iso.org.annotated/iso/19157)  
