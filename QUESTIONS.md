@@ -89,10 +89,30 @@ C n'est pas une constante c'est le rapport entre la classe de précision attendu
 dans le texte "C étant le coefficient de sécurité des mesures de contrôle", grosso modo les mesures de référence doivent être au moins 2 fois plus précises que les mesures diagnostiquées
 
 
-### précision relative
+### Précision relative 1
 Pour un exemple de mesures relatives, nous faisons à IGN Toulouse des contrôles inter chantier, nous avons donc des mesures d’écarts entre des points issus de différents lots de données en recouvrement. Cela nous permet de qualifier la position relative des chantiers entre eux.
 
 dans le texte "C étant le coefficient de sécurité des mesures de contrôle", grosso modo les mesures de référence doivent être au moins 2 fois plus précises que les mesures diagnostiquées
+
+### Précision relative 2
+soit une couche à contrôler
+id | X | Y
+1 | 0 | 1
+2 | 0 | 0
+ 
+
+et une couche de contrôle
+id | X | Y
+1' | 0 | 2
+2' | 1 | 0
+3' | 0 | 3
+ 
+
+Pour la précision relative, il faut que je calcule les écarts entre
+toutes les combinaisons de paires de points possibles entre les deux
+couches ?
+
+> Nope pour moi, entre paires de points, donc entre points appariés, aka qui représentent la même position. L'idée est là simplement de débiaiser : on enlève à chaque delta de paires de points le delta moyen. Cf page 5 de https://doi.org/10.3390/ijgi10110761. Cf l'image classique https://wikiagile.cesi.fr/index.php?title=Juste_vs_Pr%C3%A9cis . On cherche par exemple à rendre compte que la donnée est bien dessinée (le dessin est juste) mais systématiquement 5m à l'est (son biais).
 
 ### Souci écart en 3 dimensions
 corriger
@@ -105,3 +125,42 @@ toutes ces notions reposent les calculs statistiques
 Ce sera par rapport à ce qui est dans les spécifications des données et par rapport au mode de production utilisé ?
 
 ecart-type, courbe de gauss
+
+## Exactitude et incertitude
+Concernant l'incertitude sur des valeurs numériques, si je prends cette série de valeurs
+
+    1, 2, 4, 10, 20
+
+j'ai un écart type d'environ 8. Et une probabilité de 95% équivaut, je
+crois, à 2 écart types, soit 16. 16 est donc la demi longueur de mon
+intervalle de confiance
+ 
+
+Ma question est tout d'abord la suivante : en quoi ce demi-intervalle donne des indications sur la qualité de ma donnée ? Elle indique seulement une dispersion de valeurs de mon jeu de données, et ne donne pas d'indication sur la qualité, et donc d'exactitude, non ?
+ 
+
+Par contre, il serait sensé selon de moi calculer la dispersion des écarts de valeurs entre une référence et une couche à contrôler, soit d'appliquer ce calcul aux écarts de position, de valeurs, de dates...?
+
+> Exactement, la série de valeur en elle-même n'est pas à analyser.
+
+> Par contre on s'intérressera à [ (1 au lieu de 1.1) ; (2 au lieu de 1.9) ; (4 au lieu de 3.5) ; ...] et on sera capable de dire que la valeur en base est précise à +/- tant de %.
+
+## Exactitude sur la mesure temporelle
+Une fois mentionné l'exactitude des valeurs numériques, revenons à l'exactitude de la mesure temporelle. Comment calculer concrètement cette incertitude sur la base de l'exemple suivant :
+
+    1 | 16h10
+    2 | 17h30
+    3 | 10h45
+    4 | 22h15
+ 
+
+Quelle est la valeur de l'exactitude de la mesure temporelle, et comment la calculer ? Conversion des heures en secondes ? => Mais 23h59 n'est-il pas plus proche de 00h00 que 23h00 ?
+
+> Même chose, la valeur 16h10 est en base, au lieu par exemple de la valeur réelle 16h13. On privilégiera me semble t il l'unité dans laquelle la valeur s'exprime (ici, 16h10 est exprimé en h, donc l'incertitude devra être en h).
+
+> La question de la proximité 23h59 / 00h00 se règle d'elle-même : que devrait être la valeur réelle (versus la valeur mesurée et enregistrée 23h59), et donc quel est l'écart absolu ?
+
+## Exactitude et source de contrôle
+Encore une fois, une exactitude ne devrait-elle pas s'entendre comme une exactitude par rapport à une valeur véritable (issue de la source de contrôle) ?
+
+> Ben si pour moi.
