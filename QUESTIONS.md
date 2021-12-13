@@ -1,3 +1,6 @@
+## thématique/nb de valeurs d'attributs incorrectes = logique/cohérence au domaine de valeurs
+N/C
+
 ## Comment passer des taux aux étoiles
 N/C
 
