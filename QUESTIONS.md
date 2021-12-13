@@ -29,7 +29,7 @@ Voir plus bas
 Une question de C. Hoareau sur l'utilisation du taux (relatif) plutôt que le nombre (absolu).
 Il semble que le taux soit à privilégier dans la plupart des cas. Dans quel cas utiliser un nombre d'éléments non conformes plutôt qu'un taux ? (Nombre d'auto-intersection, par exemple,...)
 
-## => Taux de nombre, envisager le taux de surface ?
+## => Taux de nombre ou taux de surface ?
 Aussi, quand on parle de taux, dans certains cas, ne devrait-on pas considérer un taux de surface plutôt qu'un taux relatif à un dénombrement ? Par exemple, si je prends le critère d'exhaustivité, pour deux parcelles de grande taille, une en plus et une en moins, le taux relatif au nombre sera sous-estimé par rapport à l'impact carto mesuré par le taux de surface
 
 ## => Micro surface et excédent ?
