@@ -1,39 +1,34 @@
-## thématique/nb de valeurs d'attributs incorrectes = logique/cohérence au domaine de valeurs
+## => Thématique/nb de valeurs d'attributs incorrectes = logique/cohérence au domaine de valeurs
 N/C
 
-## Ecart de position sur une ligne
+## => Ecart de position sur une ligne
 On utilise la moyenne des écarts des noeuds de la ligne (après densification de la ligne) ou bien la valeur maximale de l'écart (soit le noeud le plus éloigné de la ligne cible) ?
 
-## Comment passer des taux aux étoiles
+## => Comment passer des taux aux étoiles
 N/C
 
-## Différence justesse et conformité au domaine de valeurs
-N/C
-
-## Précision relative ?
-N/C
-
-## Quelles données pour l'arrêté de 2003 à part PCRS ?
+## => Quelles données pour l'arrêté de 2003, à part PCRS ?
 N/C
 
 ## Comment calculer incertitude et intervalles de confiances sur données temporelles ?
-Comment calculer incertitude sur temporel : conversion en minutes ?
+Voir plus bas
 
-## Taux ou nombre ?
+## => Taux ou nombre ?
 Une question de C. Hoareau sur l'utilisation du taux (relatif) plutôt que le nombre (absolu).
 Il semble que le taux soit à privilégier dans la plupart des cas. Dans quel cas utiliser un nombre d'éléments non conformes plutôt qu'un taux ? (Nombre d'auto-intersection, par exemple,...)
 
-## Taux de nombre, envisager le taux de surface ?
+## => Taux de nombre, envisager le taux de surface ?
 Aussi, quand on parle de taux, dans certains cas, ne devrait-on pas considérer un taux de surface plutôt qu'un taux relatif à un dénombrement ? Par exemple, si je prends le critère d'exhaustivité, pour deux parcelles de grande taille, une en plus et une en moins, le taux relatif au nombre sera sous-estimé par rapport à l'impact carto mesuré par le taux de surface
 
-## Micro surface et excédent ?
+## => Micro surface et excédent ?
 Aussi, il y a d'autres questions soulevées lors de la formation :
+
 - une micro-surface qui apparaît en plus du lot théorique d'entités est-elle un élément en excès ?
 
-## Doublons
-Doit-on considérer les doublons au travers d'une mesure spécifique ? Taux de doublons ?
+## => Doublons
+Doit-on considérer les doublons au travers d'une mesure spécifique ? Taux de doublons ? Ou ce sont des excédents ?
 
-## Mesure de la cohérence de format globalement sur une couche
+## => Mesure de la cohérence de format globalement sur une couche
 > Comment combiner les taux de conformité entre champs ?
 
 Soit une couche avec deux colonnes typezone et datappro, avec 4 entités :
@@ -48,7 +43,6 @@ On a un taux de conformité pour typezone de 50% et pour datappro de 50%, mais s
 Bonsoir,
 
 Voici un petit retour relatif au second module de la formation « Qualité des données géographiques » de ce jour, et au critère d'exhaustivité.
-
 
 Suite à la question de ce matin au sujet de « la différence entre taux d’accord et taux d’exhaustivité ? », il me semble que plane pour certains une incompréhension dans les définitions des deux critères “exhaustivité“ et “précision thématique“...
 
@@ -69,28 +63,31 @@ Ensuite, à mon avis, deux cas peuvent se présenter, ce qui conditionnent la m�
 
 Certes, la terminologie de "classes" peut vouloir dire plusieurs choses et, comme dit dans la fiche, les méthodes employées pour les deux critères (exhaustivité et précision thématique) sont proches... Alors, peut-être faudrait-il prévoir pour une future formation de présenter les liens entre les deux critères, et leur usage spécifique.
 
-### Exemple objets ponctuels,
+Exemple objets ponctuels,
 
 les pylônes des lignes électriques et les transformateurs = cas n°1
 
 les pylônes des lignes électriques en distinguant basse, moyenne, et haute tension = cas n°2
 
-### Exemple objets linéaires,
+Exemple objets linéaires,
 
 un réseau de pistes cyclables et bandes cyclables : cas n°1
 
 un réseau de pistes cyclables en distinguant les mono-directionnelles et les bi-directionnelles = cas n°2
 
-### Objets surfaciques,
+Objets surfaciques,
 
 une base de données d’occupation du sol = cas n°2
 
-### centroïde de surface pour rond point ok mais pas pour le reste
+### Centroïde de surface pour rond point ok mais pas pour le reste
+N/C
+Le centroïde n'est pas forcément le bon objet à contrôler pour la cohérence de position de surface.
 
-### à quoi correspond C ?
+Voir IoU, hausdorff_distance
+
+### A quoi correspond C ?
 C n'est pas une constante c'est le rapport entre la classe de précision attendue et la précision de la référence retenue et celui-ci doit être au minimum de 2 ou plus.
 dans le texte "C étant le coefficient de sécurité des mesures de contrôle", grosso modo les mesures de référence doivent être au moins 2 fois plus précises que les mesures diagnostiquées
-
 
 ### Précision relative 1
 Pour un exemple de mesures relatives, nous faisons à IGN Toulouse des contrôles inter chantier, nous avons donc des mesures d’écarts entre des points issus de différents lots de données en recouvrement. Cela nous permet de qualifier la position relative des chantiers entre eux.
@@ -117,7 +114,7 @@ Pour la précision relative, il faut que je calcule les écarts entre toutes les
 
 > Nope pour moi, entre paires de points, donc entre points appariés, aka qui représentent la même position. L'idée est là simplement de débiaiser : on enlève à chaque delta de paires de points le delta moyen. Cf page 5 de https://doi.org/10.3390/ijgi10110761. Cf l'image classique https://wikiagile.cesi.fr/index.php?title=Juste_vs_Pr%C3%A9cis . On cherche par exemple à rendre compte que la donnée est bien dessinée (le dessin est juste) mais systématiquement 5m à l'est (son biais).
 
-### Souci écart en 3 dimensions
+### => Souci écart en 3 dimensions
 => Corriger la diapo
 
 ### coefficient k pour l'arrêté de précision 2003
@@ -126,8 +123,6 @@ y'a des explications sur le fondement de l'arrêté dans XYZ n°108 et géométr
 toutes ces notions reposent les calculs statistiques
 
 Ce sera par rapport à ce qui est dans les spécifications des données et par rapport au mode de production utilisé ?
-
-ecart-type, courbe de gauss
 
 ## Exactitude et incertitude
 Concernant l'incertitude sur des valeurs numériques, si je prends cette série de valeurs
