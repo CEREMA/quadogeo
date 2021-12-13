@@ -96,26 +96,26 @@ dans le texte "C étant le coefficient de sécurité des mesures de contrôle", 
 
 ### Précision relative 2
 soit une couche à contrôler
-id | X | Y
-1 | 0 | 1
-2 | 0 | 0
+
+    id | X | Y
+    1 | 0 | 1
+    2 | 0 | 0
  
 
 et une couche de contrôle
-id | X | Y
-1' | 0 | 2
-2' | 1 | 0
-3' | 0 | 3
+
+    id | X | Y
+    1' | 0 | 2
+    2' | 1 | 0
+    3' | 0 | 3
  
 
-Pour la précision relative, il faut que je calcule les écarts entre
-toutes les combinaisons de paires de points possibles entre les deux
-couches ?
+Pour la précision relative, il faut que je calcule les écarts entre toutes les combinaisons de paires de points possibles entre les deux couches ?
 
 > Nope pour moi, entre paires de points, donc entre points appariés, aka qui représentent la même position. L'idée est là simplement de débiaiser : on enlève à chaque delta de paires de points le delta moyen. Cf page 5 de https://doi.org/10.3390/ijgi10110761. Cf l'image classique https://wikiagile.cesi.fr/index.php?title=Juste_vs_Pr%C3%A9cis . On cherche par exemple à rendre compte que la donnée est bien dessinée (le dessin est juste) mais systématiquement 5m à l'est (son biais).
 
 ### Souci écart en 3 dimensions
-corriger
+=> Corriger la diapo
 
 ### coefficient k pour l'arrêté de précision 2003
 y'a des explications sur le fondement de l'arrêté dans XYZ n°108 et géométre 112
