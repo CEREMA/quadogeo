@@ -10,7 +10,7 @@ Student pour petit échantillon
 ## Nombre d'échantillons recommandé pour LAQ (Limite d'Acceptation de la Qualité)
 L'effectif donné pour la taille de population globale est un effectif minimum pour l'échantillon 
 
-## => Thématique/nb de valeurs d'attributs incorrectes = logique/cohérence au domaine de valeurs
+## => Thématique/nb de valeurs d'attributs incorrectes = Logique/cohérence au domaine de valeurs ?
 N/C
 
 ## => Ecart de position sur une ligne
