@@ -1,6 +1,9 @@
 ## thématique/nb de valeurs d'attributs incorrectes = logique/cohérence au domaine de valeurs
 N/C
 
+## Ecart de position sur une ligne
+On utilise la moyenne des écarts des noeuds de la ligne (après densification de la ligne) ou bien la valeur maximale de l'écart (soit le noeud le plus éloigné de la ligne cible) ?
+
 ## Comment passer des taux aux étoiles
 N/C
 
