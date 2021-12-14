@@ -3,8 +3,52 @@
 
 ## Toronto Data Quality Score
 - https://medium.com/open-data-toronto/towards-a-data-quality-score-in-open-data-part-1-525e59f729e9
+
+> "Today, however, catalogue size is less relevant primarily because it fails to measure progress towards the program’s vision of enabling anyone, anywhere, to improve life in Toronto with open data."
+
+> from “how many?” to “how good?” “emphasizing quality over quantity” 
+
+> High-quality data enables high-quality impact
+
+1. Usability (38%): how easy is it to work with the data? Measured by 3 metrics:
+
+- Proportion of columns with meaningful names
+- Proportion of columns with a constant value
+- Proportion of valid features (for geospatial datasets)
+
+2. Metadata (25%): is the data well described? Measured by percent of metadata fields that have been filled out by the publisher.
+3. Freshness (18%): how close to creation is publication? Measured by the time gap between published refresh rate v. actual (e.g. expected daily but it has been a week), and gap between last refreshed and today.
+4. Completeness (12%): how much data is missing? Measured by proportion of empty cells in the dataset.
+5. Accessibility (7%): is the data easy to access? Measured by whether the data can be accessed via the DataStore API — a freebie for the MVP, as it contains data from the DataStore only.
+
+> Instead of reporting the score as a percentage we opted for medals because, at this stage, getting the overall concept right is more important than the specific number.
+
+> Is not a measure for how accurate data is — that’s for publishers. 
+
+Contact : https://twitter.com/CareduzTweets , opendata@toronto.ca
+
 - https://medium.com/open-data-toronto/towards-a-data-quality-score-in-open-data-part-2-3f193eb9e21d
 - https://open.toronto.ca/dataset/catalogue-quality-scores/
+
+> C. Create an automatic scoring and delivery mechanism
+
+> At the end of this, 4 goals were met. Goal C, automatic scoring, is halfway there: the scoring is done automatically via a script but, for the beta, it has to be run manually.
+
+> We brought together a Data Quality Working Group to aid us with the ambiguous meaning of quality and validate our approach. It was composed of a diverse membership: multiple teams, users with a range of comfort around data, both data producers and consumers, and an array of wide-ranging perspectives including from outside our organization altogether.
+
+> It quickly became evident that quality depends on the degree to which data fits its intended purpose 
+
+![](https://miro.medium.com/max/1050/1*jPxnU2YdDqamiSWnLPoq-A.png)
+
+![](https://miro.medium.com/max/1050/1*IhlOrx9MC2kREW5fg28P5A.png)
+
+![](https://miro.medium.com/max/1050/1*z159zofS4aSnjFih-J2Lhw.png)
+
+> If interested, the algorithms tested were outlined in a paper comparing trade-offs in rank weighting methods: rank sum, rank reciprocal, sum and reciprocal, rank exponent, rank order centroid.
+
+![](https://miro.medium.com/max/1050/1*OiDbEc7T-_ef8Q82gG_z7w.png)
+
+Script quality score : https://github.com/open-data-toronto/framework-data-quality/blob/master/data_quality_score.ipynb
 
 ## Mesures
 ### Norme ISO-19157
