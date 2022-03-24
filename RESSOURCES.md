@@ -1,11 +1,11 @@
-# Quadogeo
-## Webinaire Quadogeo CRIGE PACA x Cerema
+# Webinaire Quadogeo
 ![](https://www.crige-paca.org/wp-content/uploads/2021/11/banner_quality.png)
-### Evènement
+
+## Evènement
 - https://www.crige-paca.org/formations-qualite-des-donnees-geographiques/ (Evènement animé par Stéphane Rolle du CRIGE PACA et Mathieu Rajerison du Cerema)
 - Rubrique : https://www.crige-paca.org/projets/quadogeo/
 
-### Supports
+## Supports
 
 - [Généralités](https://www.crige-paca.org/wp-content/uploads/2021/12/vf_qualite_1cc.pdf)
 - [Eléments de contexte](https://www.crige-paca.org/wp-content/uploads/2021/12/vf_qualite_2cc.pdf)
@@ -18,7 +18,7 @@
 - [Echantillonnage](https://www.crige-paca.org/wp-content/uploads/2021/12/vf_qualite_9cc.pdf)
 - [Ressentir la qualité](https://www.crige-paca.org/wp-content/uploads/2021/12/vf_qualite_10mr_cc.pdf)
 
-## Fiches Quadogeo ISO-19157
+# Fiches Quadogeo ISO-19157
 - [La norme ISO-19157, en français, et simplifiée, déclinée en fiches](https://www.cerema.fr/fr/actualites/serie-fiches-cerema-qualifier-donnees-geographiques)
 
 # Toronto Data Quality Score
@@ -116,3 +116,16 @@ http://www.geoinformations.developpement-durable.gouv.fr/fichier/pdf/verificatio
 # Statistiques
 Statistiques pour statophobes : https://perso.univ-rennes1.fr/denis.poinsot/Statistiques_%20pour_statophobes/STATISTIQUES%20POUR%20STATOPHOBES.pdf  
 https://fr.wikipedia.org/wiki/Loi_de_Fisher
+
+# Plugins QGIS
+- iso : https://plugins.qgis.org/search/?q=iso
+- prepair : https://plugins.qgis.org/plugins/prepair/
+- dataset quality assurance : https://plugins.qgis.org/plugins/dataset_qa_workbench/
+- acceptable quality limit : https://plugins.qgis.org/plugins/SampleByFeatures/
+- iso 19157 : https://plugins.qgis.org/plugins/iso_19157/
+- thematic accuracy : https://plugins.qgis.org/plugins/thematic_accuracy/
+- quality : https://plugins.qgis.org/search/?q=quality
+- check : https://plugins.qgis.org/search/?q=check
+- valid : https://plugins.qgis.org/search/?q=valid
+- control : https://plugins.qgis.org/search/?q=control
+- repair : https://plugins.qgis.org/search/?q=repair
