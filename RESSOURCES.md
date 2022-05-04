@@ -129,3 +129,7 @@ https://fr.wikipedia.org/wiki/Loi_de_Fisher
 - valid : https://plugins.qgis.org/search/?q=valid
 - control : https://plugins.qgis.org/search/?q=control
 - repair : https://plugins.qgis.org/search/?q=repair
+
+# Méthodes
+- https://medium.com/epfl-extension-school/advanced-exploratory-data-analysis-eda-with-python-536fa83c578a
+- https://blog.cleverelephant.ca/2018/06/polygon-splitting.html
