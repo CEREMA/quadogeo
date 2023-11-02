@@ -2,3 +2,6 @@ sauvegardes
 geany_run_script.bat
 private
 .Rproj.user
+*ignore
+formation/*ignore
+*ignore*

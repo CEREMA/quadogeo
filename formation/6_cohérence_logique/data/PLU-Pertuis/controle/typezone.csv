@@ -1,0 +1,27 @@
+﻿type_zone,description
+A,zone agricole
+AB,"sous-section zone A, usage agricole"
+AP,zone d’agriculture protégée
+AU,zone à urbaniser
+N,zone naturelle et forestière
+NA,future zone d’urbanisation
+NB,zones d’urbanisation diffuse
+NC,zones de richesses naturelles
+ND,zone naturelle à protéger
+NE,zone naturelle écologique sensible
+NH,zone naturelle constructible sous conditions
+NI,"Campings, équipements sportifs et loisirs"
+NL,"Campings, équipements sportifs et loisirs"
+NP,protection des captages d’eau potable
+UA,zone urbaine mixte
+UB,zone d’extension urbaine
+UC,zone urbaine mixte
+UCA,zone d’intérêt paysager
+UCB,zone d’habitat individuel isolé ou groupé
+UD,zone urbaine de faible densité
+UP,"zone portuaire, fluviale"
+UE,"zone urbaine commerciale, artisanale et industrielle"
+ZH,zone humide
+U,zone urbaine
+AUs,zone à urbaniser
+AUc,zone à urbaniser
