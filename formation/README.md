@@ -42,3 +42,9 @@ Ressentir la qualité
 ### Statistiques basiques (en cours)
 
 ### Statistiques avancées (en cours)
+
+## 3. Antisèche
+
+<img src=images/antiseche.jfif width=50%>
+
+[Voir l'antisèche](cheatsheet.md)
