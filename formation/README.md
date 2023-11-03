@@ -1,6 +1,7 @@
 # Webinaire Qualité des données géographiques sous QGIS
 
-ARNIA Idéo BFC - 7 Novembre 2023  
+**ARNIA Idéo BFC - 7 Novembre 2023**
+
 Licence Creative Commons - Auteurs : Mathieu RAJERISON (mathieu.rajerison@cerema.fr) ([CEREMA](https://www.cerema.fr/fr)) & Stéphane ROLLE ([CRIGE PACA](https://www.crige-paca.org/))
 
 [Présentation](1_présentation/vf_qualite_1cc_2022--présentation.pdf)  

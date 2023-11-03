@@ -2,7 +2,6 @@
 
 - [Exhaustivité](#exhaustivité)
    * [Données](#données)
-   * [Support OpenOffice](#support-openoffice)
    * [Donnée de contrôle](#donnée-de-contrôle)
    * [Utilisation de la transparence](#utilisation-de-la-transparence)
    * [Utilisation de masque](#utilisation-de-masque)
@@ -28,10 +27,6 @@ PLU (Couche de contrôle) : data\PLU-Pertuis\modif\PLU-Pertuis.gpkg
 Couche de référence Commune : data\PLU-Pertuis\controle\pertuis-comm-bdparcellaire.gpkg
 
 Couche de référence Parcelles : data\PLU-Pertuis\controle\pertuis-parcelles-bdparcellaire.gpkg
-
-<!-- TOC --><a name="support-openoffice"></a>
-## Support OpenOffice
-[odp](3_exhaustivité.odp)
 
 <!-- TOC --><a name="donnée-de-contrôle"></a>
 ## Donnée de contrôle
