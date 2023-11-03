@@ -1,5 +1,7 @@
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
+<img src=../images/PLU.jfif width=50%>
+
 - [Cohérence de format](#cohérence-de-format)
    * [Données](#données)
    * [Date](#date)

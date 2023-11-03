@@ -1,5 +1,7 @@
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
+<img src=../images/PLU.jfif width=50%>
+
 - [Topologie](#topologie)
    * [Données](#données)
    * [Auto-intersections](#auto-intersections)

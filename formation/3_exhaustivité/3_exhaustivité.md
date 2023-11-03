@@ -1,8 +1,9 @@
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
+<img src=../images/exhaustivite.jfif width=50%>
+
 - [Exhaustivité](#exhaustivité)
    * [Données](#données)
-   * [Donnée de contrôle](#donnée-de-contrôle)
    * [Utilisation de la transparence](#utilisation-de-la-transparence)
    * [Utilisation de masque](#utilisation-de-masque)
    * [Calcul de surface](#calcul-de-surface)
@@ -27,11 +28,6 @@ PLU (Couche de contrôle) : data\PLU-Pertuis\modif\PLU-Pertuis.gpkg
 Couche de référence Commune : data\PLU-Pertuis\controle\pertuis-comm-bdparcellaire.gpkg
 
 Couche de référence Parcelles : data\PLU-Pertuis\controle\pertuis-parcelles-bdparcellaire.gpkg
-
-<!-- TOC --><a name="donnée-de-contrôle"></a>
-## Donnée de contrôle
-- pertuis-comm-bdparcellaire.gpkg
-- pertuis-parcelles-bdparcellaire.gpkg
 
 <!-- TOC --><a name="utilisation-de-la-transparence"></a>
 ## Utilisation de la transparence

@@ -1,5 +1,7 @@
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
+<img src=../images/petanque.jfif width=50%>
+
 - [Position](#position)
    * [Jeux de données ](#jeux-de-données)
    * [Fonctions utilisées](#fonctions-utilisées)

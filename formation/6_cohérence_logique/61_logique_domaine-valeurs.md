@@ -1,5 +1,7 @@
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
+<img src=../images/PLU.jfif width=50%>
+
 - [Domaine de valeurs](#domaine-de-valeurs)
    * [Données](#données)
    * [`destdomi`](#destdomi)
