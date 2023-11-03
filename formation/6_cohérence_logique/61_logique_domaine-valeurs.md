@@ -1,10 +1,26 @@
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [Domaine de valeurs](#domaine-de-valeurs)
+   * [Données](#données)
+   * [`destdomi`](#destdomi)
+   * [`typezone`](#typezone)
+   * [Taux de conformité](#taux-de-conformité)
+   * [Valeurs uniques](#valeurs-uniques)
+   * [Jointure](#jointure)
+   * [Formatage conditionnel](#formatage-conditionnel)
+
+<!-- TOC end -->
+
+<!-- TOC --><a name="domaine-de-valeurs"></a>
 # Domaine de valeurs
 
-## Projet QGIS
-- 61_cohérence-logique-plu-pertuis-INI.qgz
-	- PLU : data\PLU-Pertuis\modif\PLU-Pertuis.gpkg
-	- typezone : data\PLU-Pertuis\controle\typezone.csv
+<!-- TOC --><a name="données"></a>
+## Données
+Projet QGIS : 61_cohérence-logique-plu-pertuis-INI.qgz  
+PLU : data\PLU-Pertuis\modif\PLU-Pertuis.gpkg  
+typezone : data\PLU-Pertuis\controle\typezone.csv
 
+<!-- TOC --><a name="destdomi"></a>
 ## `destdomi`
 Le fichier suivant listait les valeurs de référence pour le cham de destination dominante `destdomi`
 
@@ -30,6 +46,7 @@ On a 2 valeurs incorrectes : 999 et 11
 
 ![](images/3.png)
 
+<!-- TOC --><a name="typezone"></a>
 ## `typezone`
 Nous allons vérifier le champ `typezone`.
 
@@ -103,6 +120,7 @@ Ce qui donne l'expression complète :
 
 On a 5 objets mal classés.
 
+<!-- TOC --><a name="taux-de-conformité"></a>
 ## Taux de conformité
 On a donc en tout :
 
@@ -115,6 +133,7 @@ On a 113 objets.
 
 Le taux de conformité est de (113 - 7)/113 = 93,8%
 
+<!-- TOC --><a name="valeurs-uniques"></a>
 ## Valeurs uniques
 A savoir qu'une fonction utile consiste à lister les valeurs uniques pour un champ donné
 
@@ -127,6 +146,7 @@ A savoir qu'une fonction utile consiste à lister les valeurs uniques pour un ch
 3  
 ![](images/7.png)
 
+<!-- TOC --><a name="jointure"></a>
 ## Jointure
 A noter que l'on peut s'appuyer sur une liste de valeurs de référence et une jointure pour voir les données conformes, plutôt que d'utiliser une expression
 
@@ -144,6 +164,7 @@ Pour sélectionner les lignes problématiques, on peut utiliser une expression b
 
 ![](images/10.png)
 
+<!-- TOC --><a name="formatage-conditionnel"></a>
 ## Formatage conditionnel
 On peut utiliser le formatage conditionnel pour afficher les lignes problématiques dans la couche PLU.
 

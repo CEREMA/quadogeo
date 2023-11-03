@@ -1,8 +1,24 @@
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [Topologie](#topologie)
+   * [Données](#données)
+   * [Auto-intersections](#auto-intersections)
+   * [Doublons, trous, recouvrements](#doublons-trous-recouvrements)
+   * [Micro-surfaces](#micro-surfaces)
+      + [Formes trop allongées](#formes-trop-allongées)
+
+<!-- TOC end -->
+
+<!-- TOC --><a name="topologie"></a>
 # Topologie
+
+<!-- TOC --><a name="données"></a>
+## Données
 
 Projet : 61_cohérence-logique-plu-pertuis-INI.qgz  
 Donnée : PLU data\PLU-Pertuis\modif\PLU-Pertuis.gpkg
 
+<!-- TOC --><a name="auto-intersections"></a>
 ## Auto-intersections
 Les auto-intersections sont des erreurs de digitalisation en forme de papillons
 
@@ -22,6 +38,7 @@ Voyons l'erreur de plus près. C'est une auto-intersection
 
 > Blague : activer l'option `skip feature` ;-)
 
+<!-- TOC --><a name="doublons-trous-recouvrements"></a>
 ## Doublons, trous, recouvrements
 Pour voir les doublons, les trous ou lacunes, les recrouvrements, on utiliser le `Vérificateur de topologie`
 
@@ -51,11 +68,13 @@ Exécutez
 
 Double-cliquez sur chaque erreur pour aller dessus
 
+<!-- TOC --><a name="micro-surfaces"></a>
 ## Micro-surfaces
 Pour repérer les micro-surfaces, c'est très simple, allez dans la sélection par expression et tapez
 
 	area($geometry) < 100
 
+<!-- TOC --><a name="formes-trop-allongées"></a>
 ### Formes trop allongées
 En aparté, certaines géométries non conformes peuvent avoir une forme très allongée. Pour calculer l'élongation d'un objet, entrez l'expression suivante, par exemple dans un champ virtuel avec un champ `elongation`
 

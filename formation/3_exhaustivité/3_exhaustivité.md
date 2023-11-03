@@ -1,6 +1,26 @@
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [Exhaustivité](#exhaustivité)
+   * [Données](#données)
+   * [Support OpenOffice](#support-openoffice)
+   * [Donnée de contrôle](#donnée-de-contrôle)
+   * [Utilisation de la transparence](#utilisation-de-la-transparence)
+   * [Utilisation de masque](#utilisation-de-masque)
+   * [Calcul de surface](#calcul-de-surface)
+   * [Suppression des entités dupliquées](#suppression-des-entités-dupliquées)
+   * [Réparer les géométries](#réparer-les-géométries)
+   * [Différence symétrique](#différence-symétrique)
+      + [Option](#option)
+      + [Lacunes](#lacunes)
+      + [Taux d'exhaustivité](#taux-dexhaustivité)
+
+<!-- TOC end -->
+
+<!-- TOC --><a name="exhaustivité"></a>
 # Exhaustivité
 
-## Projets QGIS
+<!-- TOC --><a name="données"></a>
+## Données
 Projet QGIS : projet-plu-pertuis-INI.qgs
 
 PLU (Couche de contrôle) : data\PLU-Pertuis\modif\PLU-Pertuis.gpkg
@@ -9,13 +29,16 @@ Couche de référence Commune : data\PLU-Pertuis\controle\pertuis-comm-bdparcell
 
 Couche de référence Parcelles : data\PLU-Pertuis\controle\pertuis-parcelles-bdparcellaire.gpkg
 
+<!-- TOC --><a name="support-openoffice"></a>
 ## Support OpenOffice
 [odp](3_exhaustivité.odp)
 
+<!-- TOC --><a name="donnée-de-contrôle"></a>
 ## Donnée de contrôle
 - pertuis-comm-bdparcellaire.gpkg
 - pertuis-parcelles-bdparcellaire.gpkg
 
+<!-- TOC --><a name="utilisation-de-la-transparence"></a>
 ## Utilisation de la transparence
 On peut utiliser la transparence des objets sur la couche pour voir les excédents, les entités dupliquées
 
@@ -31,6 +54,7 @@ Aller sur la couche PLU
 
 On voit une entité qui a été dupliquée. Cela fait un objet en plus/
 
+<!-- TOC --><a name="utilisation-de-masque"></a>
 ## Utilisation de masque
 La méthode du Noir et Blanc permet de voir les éléments excédentaires, ceux qui ne devraient pas être dans l'enveloppe de la couche
 
@@ -44,6 +68,7 @@ Les scories restantes, en bordure, semblent être issues de soucis de digitalisa
 
 On a donc un objet dupliqué et un objet en plus, ce qui porte à 2 le nombre d'objets exédentaires.
 
+<!-- TOC --><a name="calcul-de-surface"></a>
 ## Calcul de surface
 Comparer les surfaces de la référence avec celles de la couche à contrôler est également un bon moyen de repérer les soucis d'excédents.
 
@@ -69,6 +94,7 @@ On peut aussi y accéder en interrogeant la couche
 
 On a une différence d'environ 2 000 000 m² (20 ha) entre les deux couches, ce qui indique des excédents.
 
+<!-- TOC --><a name="suppression-des-entités-dupliquées"></a>
 ## Suppression des entités dupliquées
 On peut supprimer les entités dupliquées comme ceci :
 
@@ -82,6 +108,7 @@ Malheureusement, le traitement provoque une erreur car la couche PLU comporte un
 
 Il faut la réparer.
 
+<!-- TOC --><a name="réparer-les-géométries"></a>
 ## Réparer les géométries
 On crée la couche Réparé comme ceci
 
@@ -95,6 +122,7 @@ On voit que les statistiques sont maintenant correctes
 
 ![](images/15.png)
 
+<!-- TOC --><a name="différence-symétrique"></a>
 ## Différence symétrique
 La différence symétrique permet d'identifier :
 
@@ -109,6 +137,7 @@ On obtient la couche `Différence symétrique`.
 
 ![](images/19.png)
 
+<!-- TOC --><a name="option"></a>
 ### Option
 A noter que si nous n'avions pas réparé les géométries en amont, le traitement aurait provoqué une erreur sur la couche PLU, traitement `PLU x Commune`, à moins d'avoir appliqué un traitement visant à éviter les éléments invalides grâce à cette option
 
@@ -118,6 +147,7 @@ Le résultat aurait été très différent.
 
 ![](images/18.png)
 
+<!-- TOC --><a name="lacunes"></a>
 ### Lacunes
 Reprenons le résultat de notre différence symétrique et analysons-le :
 
@@ -137,6 +167,7 @@ En enlevant la couche de différenciation, on le voit apparaître :
 
 ![](images/22.png)
 
+<!-- TOC --><a name="taux-dexhaustivité"></a>
 ### Taux d'exhaustivité
 Pour récapituler, nous avons :
 
