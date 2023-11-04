@@ -46,7 +46,7 @@ Par exemple, pour le script [ISO-19157](quadorender/iso-19157)
 - des graphiques à la volée d'extension  `.png` auxquels il est fait référence dans [report.html](report.html) ([seulement pour la version Inspirée de ISO-19157](quadorender/quadogeo-19157))
 
 ## Présentations
-[Présentations](https://gitlab.cerema.fr/mathieu.rajerison/quadogeo/-/blob/master/README.md#pr%C3%A9sentations)
+- [Présentations](https://gitlab.cerema.fr/mathieu.rajerison/quadogeo/-/blob/master/README.md#pr%C3%A9sentations)
 
 ## TODO
 - Récupérer un corpus plus important de XML 19157 
