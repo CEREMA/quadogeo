@@ -1,6 +1,6 @@
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
-<img src=images/../antiseche.jfif width=50%>
+<img src=images/antiseche.jfif width=50%>
 
 - [Cheatsheet](#cheatsheet)
    * [EXHAUSTIVITE](#exhaustivite)
