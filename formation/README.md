@@ -1,6 +1,6 @@
 # Webinaire Qualité des données géographiques sous QGIS
 
-<img src=images/vignette.jfif width=50%>
+<img src=images/vignette-qgis.png width=50%>
 
 **ARNIA Idéo BFC - 7 Novembre 2023**
 

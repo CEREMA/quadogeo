@@ -34,7 +34,7 @@ Répertoire d'outils et de méthodes associées au groupe de travail [QuaDoGeo d
 ## 1. QGIS
 <!-- TOC --><a name="webinaire-arnia-qgis"></a>
 ### Webinaire ARNIA - QGIS
-<img src=https://www.qgis.org/fr/_images/main_logo.png width=30%>
+<img src=formation/images/vignette-qgis.png width=50%>
 
 Webinaire ARNIA Idéo BFC 7 - Novembre 2023
 
@@ -103,8 +103,8 @@ Webinaire ARNIA Idéo BFC 7 - Novembre 2023
 
 <!-- TOC --><a name="evènement"></a>
 #### Evènement
-- https://www.crige-paca.org/formations-qualite-des-donnees-geographiques/ (Evènement animé par Stéphane Rolle du CRIGE PACA et Mathieu Rajerison du Cerema)
-- Rubrique : https://www.crige-paca.org/projets/quadogeo/
+- Evènement : [https://www.crige-paca.org/formations-qualite-des-donnees-geographiques/](https://www.crige-paca.org/formations-qualite-des-donnees-geographiques/) (Evènement animé par Stéphane Rolle du CRIGE PACA et Mathieu Rajerison du Cerema)
+- Rubrique QuaDoGéo : [https://www.crige-paca.org/projets/quadogeo/](https://www.crige-paca.org/projets/quadogeo/)
 
 <!-- TOC --><a name="supports"></a>
 #### Supports
@@ -122,8 +122,8 @@ Webinaire ARNIA Idéo BFC 7 - Novembre 2023
 
 <!-- TOC --><a name="toronto-data-quality-score"></a>
 ### Toronto Data Quality Score
-- https://medium.com/open-data-toronto/towards-a-data-quality-score-in-open-data-part-1-525e59f729e9
-- Script quality score : https://github.com/open-data-toronto/framework-data-quality/blob/master/data_quality_score.ipynb
+- [https://medium.com/open-data-toronto/towards-a-data-quality-score-in-open-data-part-1-525e59f729e9](https://medium.com/open-data-toronto/towards-a-data-quality-score-in-open-data-part-1-525e59f729e9)
+- Script Quality Score : [https://github.com/open-data-toronto/framework-data-quality/blob/master/data_quality_score.ipynb](https://github.com/open-data-toronto/framework-data-quality/blob/master/data_quality_score.ipynb)
 
 <!--
 > "Today, however, catalogue size is less relevant primarily because it fails to measure progress towards the program’s vision of enabling anyone, anywhere, to improve life in Toronto with open data."
@@ -180,12 +180,12 @@ Contact : https://twitter.com/CareduzTweets , opendata@toronto.ca
 
 <!-- TOC --><a name="expressions-régulières"></a>
 ### Expressions régulières
-https://github.com/datagistips/memos/blob/main/regexes.md
+[https://github.com/datagistips/memos/blob/main/regexes.md](https://github.com/datagistips/memos/blob/main/regexes.md)
 
 <!-- TOC --><a name="statistiques"></a>
 ### Statistiques
-Statistiques pour statophobes : https://perso.univ-rennes1.fr/denis.poinsot/Statistiques_%20pour_statophobes/STATISTIQUES%20POUR%20STATOPHOBES.pdf  
-https://fr.wikipedia.org/wiki/Loi_de_Fisher
+- [Statistiques pour statophobes](https://perso.univ-rennes1.fr/denis.poinsot/Statistiques_%20pour_statophobes/STATISTIQUES%20POUR%20STATOPHOBES.pdf  )
+- [https://fr.wikipedia.org/wiki/Loi_de_Fisher](https://fr.wikipedia.org/wiki/Loi_de_Fisher)
 
 <!-- TOC --><a name="4-présentations"></a>
 ## 4. Présentations
