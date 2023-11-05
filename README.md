@@ -3,24 +3,29 @@
 - [Quadogeo](#quadogeo)
    * [1. QGIS](#1-qgis)
       + [Webinaire ARNIA - QGIS](#webinaire-arnia-qgis)
-      + [Méthodes](#méthodes)
-      + [Plugins](#plugins)
-         - [Plugins](#plugins-1)
-         - [Catégories](#catégories)
+      + [Méthodes QGIS](#méthodes-qgis)
+      + [Plugins QGIS](#plugins-qgis)
+         - [Evaluation](#evaluation)
+         - [Précision spatiale](#précision-spatiale)
+         - [Cohérence topologique](#cohérence-topologique)
+         - [Cohérence de format](#cohérence-de-format)
+         - [Echantillonnage](#echantillonnage)
+         - [Précision thématique](#précision-thématique)
+         - [Réparation](#réparation)
+         - [Auteurs de plugins liés à la qualité](#auteurs-de-plugins-liés-à-la-qualité)
       + [Méthodes sous Python ou PostGIS](#méthodes-sous-python-ou-postgis)
    * [2. Outil Quadorender (POC)](#2-outil-quadorender-poc)
-   * [3. Ressources](#3-ressources)
+   * [3. Ressources QuaDoGéo](#3-ressources-quadogéo)
       + [Fiches QuaDoGéo](#fiches-quadogéo)
       + [Mesures QuaDoGéo sur GéoCatalogue](#mesures-quadogéo-sur-géocatalogue)
-      + [Webinaire Quadogeo](#webinaire-quadogeo)
+      + [Webinaire et supports de formation Quadogeo](#webinaire-et-supports-de-formation-quadogeo)
          - [Evènement](#evènement)
-         - [Supports](#supports)
-      + [Toronto Data Quality Score](#toronto-data-quality-score)
-      + [Norme ISO-19157 officielle](#norme-iso-19157-officielle)
-      + [Expressions régulières](#expressions-régulières)
-      + [Statistiques](#statistiques)
-   * [4. Présentations](#4-présentations)
+         - [Supports QuaDoGéo](#supports-quadogéo)
       + [Remontée qualité](#remontée-qualité)
+   * [4. Norme ISO-19157 officielle](#4-norme-iso-19157-officielle)
+   * [5. Toronto Data Quality Score](#5-toronto-data-quality-score)
+   * [6. Expressions régulières](#6-expressions-régulières)
+   * [7. Statistiques](#7-statistiques)
 
 <!-- TOC end -->
 
@@ -41,24 +46,76 @@ Webinaire ARNIA Idéo BFC 7 - Novembre 2023
 [Mallette de formation QGIS](formation)  
 [Antisèche QGIS](formation/cheatsheet.md)
 
-<!-- TOC --><a name="méthodes"></a>
-### Méthodes
-[https://hfcqgis.opendatasicilia.it/gr_funzioni/gruppo_funzioni/  ](https://hfcqgis.opendatasicilia.it/gr_funzioni/gruppo_funzioni/  )
+<!-- TOC --><a name="méthodes-qgis"></a>
+### Méthodes QGIS
+[Vérification et correction de géométries (MTE)](http://www.geoinformations.developpement-durable.gouv.fr/fichier/pdf/verification_et_correction_de_geometrie_v3_0_cle5fcd75.pdf?arg=177834719&cle=830634f7888fc808498f0c41704664611af04021&file=pdf%2Fverification_et_correction_de_geometrie_v3_0_cle5fcd75.pdf)
 
-[http://www.geoinformations.developpement-durable.gouv.fr/fichier/pdf/verification_et_correction_de_geometrie_v3_0_cle5fcd75.pdf?arg=177834719&cle=830634f7888fc808498f0c41704664611af04021&file=pdf%2Fverification_et_correction_de_geometrie_v3_0_cle5fcd75.pdf](http://www.geoinformations.developpement-durable.gouv.fr/fichier/pdf/verification_et_correction_de_geometrie_v3_0_cle5fcd75.pdf?arg=177834719&cle=830634f7888fc808498f0c41704664611af04021&file=pdf%2Fverification_et_correction_de_geometrie_v3_0_cle5fcd75.pdf)
+[Méthodes sous QGIS (en italien)](https://hfcqgis.opendatasicilia.it/gr_funzioni/gruppo_funzioni/)
 
-<!-- TOC --><a name="plugins"></a>
-### Plugins
-<!-- TOC --><a name="plugins-1"></a>
-#### Plugins
-- iso 19157 : https://plugins.qgis.org/plugins/iso_19157/
-- dataset quality assurance : https://plugins.qgis.org/plugins/dataset_qa_workbench/
-- acceptable quality limit : https://plugins.qgis.org/plugins/SampleByFeatures/
-- thematic accuracy : https://plugins.qgis.org/plugins/thematic_accuracy/
-- QompliGIS : https://oslandia.com/2021/10/13/qompligis-un-plugin-pour-les-verifier-tous/
+<!-- TOC --><a name="plugins-qgis"></a>
+### Plugins QGIS
 
-<!-- TOC --><a name="catégories"></a>
-#### Catégories
+<!-- TOC --><a name="evaluation"></a>
+#### Evaluation
+- [QompliGIS](https://oslandia.com/2021/10/13/qompligis-un-plugin-pour-les-verifier-tous/)
+- [Dataset QA Workbench](https://plugins.qgis.org/plugins/dataset_qa_workbench/)
+- [vertex compare](https://plugins.qgis.org/plugins/vertex_compare/)
+- [SenseHawk QC](https://plugins.qgis.org/plugins/sensehawk_qc/)
+- [iso 19157](https://plugins.qgis.org/plugins/iso_19157/)
+	- Site et doc' (en espagnol) : [http://iso19157qgis.hol.es/](http://iso19157qgis.hol.es/)
+
+<!-- TOC --><a name="précision-spatiale"></a>
+#### Précision spatiale
+- [GeoPEC](https://plugins.qgis.org/plugins/geopec/) (précision spatiale de lignes)
+- [AcAtaMa](https://plugins.qgis.org/plugins/AcATaMa/)
+- [Qpositional](https://plugins.qgis.org/plugins/Qpositional/)
+- [Accuracy Assessment](https://plugins.qgis.org/plugins/accassess/) (pour rasters)
+- [Spatial Distribution Pattern](https://plugins.qgis.org/plugins/spatialdistributionpattern/)
+- [BOS](https://plugins.qgis.org/plugins/BOS/) (comparaison de lignes)
+- [LineComparison](https://plugins.qgis.org/plugins/linecomparison/)
+- [vertex compare](https://plugins.qgis.org/plugins/vertex_compare/)
+- [Nearest Neighbor Method for Linear Features (NNMLF)](https://plugins.qgis.org/plugins/nnmlf/)
+
+<!-- TOC --><a name="cohérence-topologique"></a>
+#### Cohérence topologique
+- [SQUAD Tool](https://plugins.qgis.org/plugins/squad-plugin-qgis2/)
+- [SQUAD Tool v3](https://plugins.qgis.org/plugins/squad-plugin-qgis3/)
+- [constraintchecker](https://www.lutraconsulting.co.uk/projects/constraintchecker/)
+	- [Doc](https://www.lutraconsulting.co.uk/projects/constraintchecker/)
+- [shp2grass\_checker](https://plugins.qgis.org/plugins/shp2grass_checker/)
+- [frequency\_overlaps](https://plugins.qgis.org/plugins/frequency_overlaps/)
+- [Geometry Validator](https://plugins.qgis.org/plugins/GeometryValidator/)
+
+<!-- TOC --><a name="cohérence-de-format"></a>
+#### Cohérence de format
+- [FormatConsistency](https://plugins.qgis.org/plugins/FormatConsistency/)
+- [datetimetools](https://plugins.qgis.org/plugins/datetimetools/)
+
+<!-- TOC --><a name="echantillonnage"></a>
+#### Echantillonnage
+- [Sample by Features](https://plugins.qgis.org/plugins/SampleByFeatures/)
+- [Sample by Area](https://plugins.qgis.org/plugins/SampleByArea/)
+
+<!-- TOC --><a name="précision-thématique"></a>
+#### Précision thématique
+- [thematic accuracy](https://plugins.qgis.org/plugins/thematic_accuracy/)
+
+<!-- TOC --><a name="réparation"></a>
+#### Réparation
+- [prepair](https://plugins.qgis.org/plugins/prepair/)
+- [RepairLinesConncetions](https://plugins.qgis.org/plugins/RepairLinesConncetions/)
+- [RepairGeometry](https://plugins.qgis.org/plugins/RepairGeometry/)
+- [vertex compare](https://plugins.qgis.org/plugins/vertex_compare/)
+
+<!-- TOC --><a name="auteurs-de-plugins-liés-à-la-qualité"></a>
+#### Auteurs de plugins liés à la qualité
+- [Alex Santos](https://plugins.qgis.org/plugins/author/Alex%2520Santos/)
+- [Harold Mercado Llanos](https://plugins.qgis.org/plugins/user/hmercado78/admin)
+
+<!--
+#### Par catégories
+- Accuracy
+	- https://plugins.qgis.org/plugins/tags/accuracy/
 - iso : https://plugins.qgis.org/search/?q=iso
 - prepair : https://plugins.qgis.org/plugins/prepair/
 - quality
@@ -72,7 +129,7 @@ Webinaire ARNIA Idéo BFC 7 - Novembre 2023
 - valid : https://plugins.qgis.org/search/?q=valid
 - control : https://plugins.qgis.org/search/?q=control
 - repair : https://plugins.qgis.org/search/?q=repair
-
+-->
 
 <!-- TOC --><a name="méthodes-sous-python-ou-postgis"></a>
 ### Méthodes sous Python ou PostGIS
@@ -87,8 +144,8 @@ Webinaire ARNIA Idéo BFC 7 - Novembre 2023
 - [Quadorender sur un XML ISO-191157 fictif (Réunion du 20 Mai 2021)](https://docs.google.com/presentation/d/18nhTcNG3yMRsH8U5en4q56BwytKDEycApAB1HOnNDjc/edit?usp=sharing)  
 - [Quadorender sur un XML inspiré de QuaDoGeo (Réunion du 2 Octobre 2020)](https://docs.google.com/presentation/d/1TCYm14_mcmfzSNTyCeLvuT42KIrhgTr3vMO6HzNbLOg/edit?usp=sharing)
 
-<!-- TOC --><a name="3-ressources"></a>
-## 3. Ressources
+<!-- TOC --><a name="3-ressources-quadogéo"></a>
+## 3. Ressources QuaDoGéo
 <!-- TOC --><a name="fiches-quadogéo"></a>
 ### Fiches QuaDoGéo
 [La norme ISO-19157, en français, et simplifiée, déclinée en fiches](https://www.cerema.fr/fr/actualites/serie-fiches-cerema-qualifier-donnees-geographiques)
@@ -97,17 +154,19 @@ Webinaire ARNIA Idéo BFC 7 - Novembre 2023
 ### Mesures QuaDoGéo sur GéoCatalogue
 [https://data.geocatalogue.fr/ncl/mesuresQuaDoGeo](https://data.geocatalogue.fr/ncl/mesuresQuaDoGeo)
 
-<!-- TOC --><a name="webinaire-quadogeo"></a>
-### Webinaire Quadogeo
+<!-- TOC --><a name="webinaire-et-supports-de-formation-quadogeo"></a>
+### Webinaire et supports de formation Quadogeo
+<!--
 ![](https://www.crige-paca.org/wp-content/uploads/2021/11/banner_quality.png)
+-->
 
 <!-- TOC --><a name="evènement"></a>
 #### Evènement
 - Evènement : [https://www.crige-paca.org/formations-qualite-des-donnees-geographiques/](https://www.crige-paca.org/formations-qualite-des-donnees-geographiques/) (Evènement animé par Stéphane Rolle du CRIGE PACA et Mathieu Rajerison du Cerema)
 - Rubrique QuaDoGéo : [https://www.crige-paca.org/projets/quadogeo/](https://www.crige-paca.org/projets/quadogeo/)
 
-<!-- TOC --><a name="supports"></a>
-#### Supports
+<!-- TOC --><a name="supports-quadogéo"></a>
+#### Supports QuaDoGéo
 
 - [Généralités](https://www.crige-paca.org/wp-content/uploads/2021/12/vf_qualite_1cc.pdf)
 - [Eléments de contexte](https://www.crige-paca.org/wp-content/uploads/2021/12/vf_qualite_2cc.pdf)
@@ -120,8 +179,20 @@ Webinaire ARNIA Idéo BFC 7 - Novembre 2023
 - [Echantillonnage](https://www.crige-paca.org/wp-content/uploads/2021/12/vf_qualite_9cc.pdf)
 - [Ressentir la qualité](https://www.crige-paca.org/wp-content/uploads/2021/12/vf_qualite_10mr_cc.pdf)
 
-<!-- TOC --><a name="toronto-data-quality-score"></a>
-### Toronto Data Quality Score
+<!-- TOC --><a name="remontée-qualité"></a>
+### Remontée qualité
+- [La remontée qualité utilisateurs (4 Juin 2020)](https://docs.google.com/presentation/d/1QCJtAPdPrcjRj9KQZuyjjTQt4q-ZrH4tGYIh3JNODAc/edit?usp=sharing)
+- [Qualité, usages et usagers, est-ce usant ? (21 Novembre 2019)](https://drive.google.com/file/d/1Lx3LKOPJJZOkxrm-kApcTmUiupYhQ5kD/view)
+
+<!-- TOC --><a name="4-norme-iso-19157-officielle"></a>
+## 4. Norme ISO-19157 officielle
+![](files/modele.jpg)
+
+- [Norme ISO-19157 en XML](https://github.com/ISO-TC211/XML/tree/master/standards.iso.org.annotated/iso/19157)  
+- [Site ICA](https://wiki.icaci.org/index.php?title=ISO_19157:2013_Geographic_information_-_Data_quality)
+
+<!-- TOC --><a name="5-toronto-data-quality-score"></a>
+## 5. Toronto Data Quality Score
 - [https://medium.com/open-data-toronto/towards-a-data-quality-score-in-open-data-part-1-525e59f729e9](https://medium.com/open-data-toronto/towards-a-data-quality-score-in-open-data-part-1-525e59f729e9)
 - Script Quality Score : [https://github.com/open-data-toronto/framework-data-quality/blob/master/data_quality_score.ipynb](https://github.com/open-data-toronto/framework-data-quality/blob/master/data_quality_score.ipynb)
 
@@ -171,25 +242,11 @@ Contact : https://twitter.com/CareduzTweets , opendata@toronto.ca
 ![](https://miro.medium.com/max/1050/1*OiDbEc7T-_ef8Q82gG_z7w.png)
 -->
 
-<!-- TOC --><a name="norme-iso-19157-officielle"></a>
-### Norme ISO-19157 officielle
-![](files/modele.jpg)
-
-- [Norme ISO-19157 en XML](https://github.com/ISO-TC211/XML/tree/master/standards.iso.org.annotated/iso/19157)  
-- [Site ICA](https://wiki.icaci.org/index.php?title=ISO_19157:2013_Geographic_information_-_Data_quality)
-
-<!-- TOC --><a name="expressions-régulières"></a>
-### Expressions régulières
+<!-- TOC --><a name="6-expressions-régulières"></a>
+## 6. Expressions régulières
 [https://github.com/datagistips/memos/blob/main/regexes.md](https://github.com/datagistips/memos/blob/main/regexes.md)
 
-<!-- TOC --><a name="statistiques"></a>
-### Statistiques
+<!-- TOC --><a name="7-statistiques"></a>
+## 7. Statistiques
 - [Statistiques pour statophobes](https://perso.univ-rennes1.fr/denis.poinsot/Statistiques_%20pour_statophobes/STATISTIQUES%20POUR%20STATOPHOBES.pdf  )
 - [https://fr.wikipedia.org/wiki/Loi_de_Fisher](https://fr.wikipedia.org/wiki/Loi_de_Fisher)
-
-<!-- TOC --><a name="4-présentations"></a>
-## 4. Présentations
-<!-- TOC --><a name="remontée-qualité"></a>
-### Remontée qualité
-- [La remontée qualité utilisateurs (4 Juin 2020)](https://docs.google.com/presentation/d/1QCJtAPdPrcjRj9KQZuyjjTQt4q-ZrH4tGYIh3JNODAc/edit?usp=sharing)
-- [Qualité, usages et usagers, est-ce usant ? (21 Novembre 2019)](https://drive.google.com/file/d/1Lx3LKOPJJZOkxrm-kApcTmUiupYhQ5kD/view)
