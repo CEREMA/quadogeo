@@ -2,7 +2,7 @@
 
 - [Quadogeo](#quadogeo)
    * [1. QGIS](#1-qgis)
-      + [Webinaire ARNIA](#webinaire-arnia)
+      + [Webinaire ARNIA - QGIS](#webinaire-arnia-qgis)
       + [Méthodes](#méthodes)
       + [Plugins](#plugins)
          - [Plugins](#plugins-1)
@@ -32,11 +32,14 @@ Répertoire d'outils et de méthodes associées au groupe de travail [QuaDoGeo d
 
 <!-- TOC --><a name="1-qgis"></a>
 ## 1. QGIS
-<!-- TOC --><a name="webinaire-arnia"></a>
-### Webinaire ARNIA
+<!-- TOC --><a name="webinaire-arnia-qgis"></a>
+### Webinaire ARNIA - QGIS
 <img src=https://www.qgis.org/fr/_images/main_logo.png width=30%>
 
-[Qualification de la donnée géographique sous QGIS - Webinaire ARNIA Idéo BFC 7 - Novembre 2023](formation)
+Webinaire ARNIA Idéo BFC 7 - Novembre 2023
+
+[Mallette de formation QGIS](formation)  
+[Antisèche QGIS](formation/cheatsheet.md)
 
 <!-- TOC --><a name="méthodes"></a>
 ### Méthodes

@@ -6,9 +6,11 @@
 
 Licence Creative Commons - Auteurs : Mathieu RAJERISON (mathieu.rajerison@cerema.fr) ([CEREMA](https://www.cerema.fr/fr)) & Stéphane ROLLE ([CRIGE PACA](https://www.crige-paca.org/))
 
+[Conducteur de la formation](Conducteur.md)  
+
 [Présentation](1_présentation/vf_qualite_1cc_2022--présentation.pdf)  
 [Contexte](2_contexte/vf_qualite_2cc_2022--contexte.pdf)  
-Ressentir la qualité
+Ressentir la qualité (en cours)
 
 ## 1. Critères & mesures QGIS
 ### Exhaustivité (avec les PLU)
@@ -34,16 +36,21 @@ Ressentir la qualité
 [Théorie](7_précision_position/vf_qualite_7cc_2022--précision-position.pdf)  
 [Pratique](7_précision_position/71_position_boulodromes.md)  
 
-### Qualité temporelle (en cours)
+### Qualité temporelle
+(en cours)
 
-### Précision thématique (en cours)
+### Précision thématique
+(en cours)
 
 ## 2. Échantillonnage et statistiques
-### Échantillonnage (en cours)
+### Échantillonnage
+(en cours)
 
-### Statistiques basiques (en cours)
+### Statistiques basiques
+(en cours)
 
-### Statistiques avancées (en cours)
+### Statistiques avancées
+(en cours)
 
 ## 3. Antisèche
 
