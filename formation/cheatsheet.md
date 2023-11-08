@@ -29,6 +29,7 @@ Session ARNIA Idéo BFC - 7 Novembre 2023
 - `area($geometry)`
 - `Vue > Panneaux > Statistiques > Somme des surfaces`
 - `Traitements > Supprimer les géométries dupliquées`
+- `Traitements > Réparer les géométries`
 - `Traitements > Différence symétrique`
 - `Contrôle des couches > Couche > Clic-droit > Voir le décompte des entités`
 
