@@ -138,7 +138,7 @@ Webinaire ARNIA Idéo BFC 7 - Novembre 2023
 
 <!-- TOC --><a name="2-outil-quadorender-poc"></a>
 ## 2. Outil Quadorender (POC)
-[Quadorender, preuve de concept d'une restitution automatisée de la qualité](tooling/QUADORENDER.md)
+[Quadorender, preuve de concept d'une restitution automatisée de la qualité](tooling/quadorender)
 
 - [Quadorender sur un vrai XML ISO-191157 (Réunion du 7 Octobre 2021)](https://docs.google.com/presentation/d/1JLyhtKRqUqeOSJiULc1fYeCldKf3pZDN1cHfCfp-S5M/edit?usp=sharing)  
 - [Quadorender sur un XML ISO-191157 fictif (Réunion du 20 Mai 2021)](https://docs.google.com/presentation/d/18nhTcNG3yMRsH8U5en4q56BwytKDEycApAB1HOnNDjc/edit?usp=sharing)  
