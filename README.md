@@ -45,8 +45,10 @@ Webinaire ARNIA Idéo BFC 7 - Novembre 2023
 
 [Mallette de formation QGIS](formation)  
 [Antisèche QGIS](formation/cheatsheet.md)
+[Replay Qualité des données avec QGIS, PostgreSQL/PostGIS](https://ideo.ternum-bfc.fr/novembre-2023-classes-virtuelles-qualite-de-la-donnee)
 
 <!-- TOC --><a name="méthodes-qgis"></a>
+
 ### Méthodes QGIS
 [Vérification et correction de géométries (MTE)](http://www.geoinformations.developpement-durable.gouv.fr/fichier/pdf/verification_et_correction_de_geometrie_v3_0_cle5fcd75.pdf?arg=177834719&cle=830634f7888fc808498f0c41704664611af04021&file=pdf%2Fverification_et_correction_de_geometrie_v3_0_cle5fcd75.pdf)
 
