@@ -44,7 +44,7 @@ Répertoire d'outils et de méthodes associées au groupe de travail [QuaDoGeo d
 Webinaire ARNIA Idéo BFC 7 - Novembre 2023
 
 [Mallette de formation QGIS](formation)  
-[Antisèche QGIS](formation/cheatsheet.md)
+[Antisèche QGIS](formation/cheatsheet.md)  
 [Replay Qualité des données avec QGIS, PostgreSQL/PostGIS](https://ideo.ternum-bfc.fr/novembre-2023-classes-virtuelles-qualite-de-la-donnee)
 
 <!-- TOC --><a name="méthodes-qgis"></a>
