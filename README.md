@@ -150,7 +150,8 @@ Webinaire ARNIA Idéo BFC 7 - Novembre 2023
 ## 3. Ressources QuaDoGéo
 <!-- TOC --><a name="fiches-quadogéo"></a>
 ### Fiches QuaDoGéo
-[La norme ISO-19157, en français, et simplifiée, déclinée en fiches](https://www.cerema.fr/fr/actualites/serie-fiches-cerema-qualifier-donnees-geographiques)
+[La norme ISO-19157, en français, et simplifiée, déclinée en fiches](https://www.cerema.fr/fr/actualites/serie-fiches-cerema-qualifier-donnees-geographiques)  
+[Télécharger les fiches](https://github.com/CEREMA/quadogeo/tree/master/resources/fiches-iso-19157)
 
 <!-- TOC --><a name="mesures-quadogéo-sur-géocatalogue"></a>
 ### Mesures QuaDoGéo sur GéoCatalogue
